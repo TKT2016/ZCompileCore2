@@ -1,0 +1,78 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using ZCompileCore.Lex;
+using ZCompileCore.Parser;
+using ZCompileCore.Parsers;
+using ZCompileDesc.Words;
+
+namespace ZCompileCore.AST
+{
+    public class ExpRawBracket : ExpRaw
+    {
+        public Token LeftBracket { get; set; }
+        public Token RightBracket { get; set; }
+        public List<ExpRaw> InnerRawExps { get; set; }
+
+        public ExpRawBracket()
+        {
+            InnerRawExps = new List<ExpRaw>();
+        }
+
+        public override Exp Parse()
+        {
+            var wordTree = this.ExpContext.ExpWordDictionary;
+            WordSegmenter segmenter = new WordSegmenter(wordTree);
+            //List<Token> tokens = new List<Token>();
+            List<object> newRaws = new List<object>();
+            foreach (var item in InnerRawExps)
+            {
+                if (item is ExpRawNormal)
+                {
+                    Exp exp2 = (item as ExpRawNormal).Parse();
+                    if(exp2 !=null)
+                    {
+                        newRaws.Add(exp2);
+                    }
+                }
+                else if (item is ExpRawBracket)
+                {
+                    Exp exp2 = (item as ExpRawBracket).Parse();
+                    if (exp2 != null)
+                    {
+                        newRaws.Add(exp2);
+                    }
+                }
+                else
+                {
+                    throw new CompileException();
+                }
+            }
+            ExpParser parser = new ExpParser();
+            Exp exp = parser.Parse(tokens,this.FileContext);
+            //exp.ParentExp = this.ParentExp;
+            exp.SetContext(this.ExpContext);
+            return exp;
+        }
+
+        #region 覆盖方法
+        //public override CodePostion Postion
+        //{
+        //    get { return RawTokens[0].Postion; }
+        //}
+
+
+        public override Exp[] GetSubExps()
+        {
+            throw new CompileException();
+        }
+		
+
+        public override string ToString()
+        {
+            return "(" + string.Join(",", InnerRawExps.Select(p => p.ToString())) + ")";
+        }
+        #endregion
+    }
+}

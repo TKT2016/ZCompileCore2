@@ -1,0 +1,31 @@
+﻿使用包:月光游戏开发框架；
+简略使用:二维向量,颜色,精灵效果，素材资源管理器,常用数学函数;
+属于:精灵;
+
+属性:
+    m_Viewport：矩形;//m_Viewport
+    速度:二维向量;// public Vector2 速度 { get; set; }
+    长度:整数;//public int 长度 { get; set; }
+    高度:整数;//public int 高度 { get; set; }
+
+过程:(图形设备:T)
+    纹理 = 炮弹纹理;//纹理 = ContentManager.CannonBall;
+    如果纹理 != 空
+         长度 = 纹理的长度;// 长度 = 纹理.长度;
+         高度 = 纹理的高度;// 高度 = 纹理.高度;
+    出生地点 = 二维向量(长度 / 2, 高度 / 2);
+    速度 = 原点;
+    m_Viewport = 矩形(0, 0, T的视口的长度, T的视口的高度);
+    IsAlive = 否;
+
+过程:更新
+    如果 (IsAlive)
+        位置 += 速度;
+        如果 (!m_Viewport.Contains(点((int)位置的X, (int)位置的Y)))
+                 IsAlive = 否;
+
+过程:用(绘图器:H)绘制
+     如果IsAlive==是
+           (H)绘制(纹理, 位置, Color);
+           base.Draw(spriteBatch);
+

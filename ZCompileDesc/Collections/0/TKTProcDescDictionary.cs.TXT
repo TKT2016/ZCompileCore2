@@ -1,0 +1,68 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using ZyyDesc.Descriptions;
+
+namespace ZyyDesc.Collections
+{
+    public class TKTProcDescDictionary<V>
+    {
+        Dictionary<ZProcDesc, V> dict;
+        public TKTProcDescDictionary()
+        {
+            dict = new Dictionary<ZProcDesc, V>();
+        }
+
+        public void Add(ZProcDesc procDesc,V v)
+        {
+            dict.Add(procDesc, v);
+        }
+
+        public bool Contains(ZProcDesc procDesc)
+        {
+            foreach (ZProcDesc key in dict.Keys.ToList())
+            {
+                if (key.Eq(procDesc))
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        public V Get(ZProcDesc procDesc)
+        {
+            foreach (ZProcDesc key in dict.Keys.ToList())
+            {
+                if (key.Eq(procDesc))
+                {
+                    return dict[key];
+                }
+            }
+            return default(V);
+        }
+
+        public ZProcDesc SearchProc(ZProcDesc procDesc)
+        {
+            foreach (ZProcDesc key in dict.Keys.ToList())
+            {
+                if (key.Eq(procDesc))
+                {
+                    return key;
+                }
+            }
+            return null;
+        }
+
+        public int Count
+        {
+            get
+            {
+                return dict.Count;
+            }
+        }
+
+    }
+}

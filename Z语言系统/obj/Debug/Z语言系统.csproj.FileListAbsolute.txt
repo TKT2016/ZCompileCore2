@@ -1,0 +1,98 @@
+E:\WorkProjects\Z\Z 0.3\ZCompileCore 0.3\Z语言系统\bin\Debug\Z语言系统.dll
+E:\WorkProjects\Z\Z 0.3\ZCompileCore 0.3\Z语言系统\bin\Debug\Z语言系统.pdb
+E:\WorkProjects\Z\Z 0.3\ZCompileCore 0.3\Z语言系统\bin\Debug\ZLangRT.dll
+E:\WorkProjects\Z\Z 0.3\ZCompileCore 0.3\Z语言系统\bin\Debug\ZLangRT.pdb
+E:\WorkProjects\Z\Z 0.3\ZCompileCore 0.3\Z语言系统\obj\Debug\Z语言系统.csprojResolveAssemblyReference.cache
+E:\WorkProjects\Z\Z 0.3\ZCompileCore 0.3\Z语言系统\obj\Debug\Z语言系统.dll
+E:\WorkProjects\Z\Z 0.3\ZCompileCore 0.3\Z语言系统\obj\Debug\Z语言系统.pdb
+E:\WorkProjects\Z\Z 0.4\ZCompileCore2\Z语言系统\bin\Debug\Z语言系统.dll
+E:\WorkProjects\Z\Z 0.4\ZCompileCore2\Z语言系统\bin\Debug\Z语言系统.pdb
+E:\WorkProjects\Z\Z 0.4\ZCompileCore2\Z语言系统\bin\Debug\ZLangRT.dll
+E:\WorkProjects\Z\Z 0.4\ZCompileCore2\Z语言系统\bin\Debug\ZLangRT.pdb
+E:\WorkProjects\Z\Z 0.4\ZCompileCore2\Z语言系统\obj\Debug\Z语言系统.csprojResolveAssemblyReference.cache
+E:\WorkProjects\Z\Z 0.4\ZCompileCore2\Z语言系统\obj\Debug\Z语言系统.dll
+E:\WorkProjects\Z\Z 0.4\ZCompileCore2\Z语言系统\obj\Debug\Z语言系统.pdb
+E:\works\Zyy\Z\Z 0.4\ZCompileCore2\Z语言系统\bin\Debug\Z语言系统.dll
+E:\works\Zyy\Z\Z 0.4\ZCompileCore2\Z语言系统\bin\Debug\Z语言系统.pdb
+E:\works\Zyy\Z\Z 0.4\ZCompileCore2\Z语言系统\bin\Debug\ZLangRT.dll
+E:\works\Zyy\Z\Z 0.4\ZCompileCore2\Z语言系统\bin\Debug\ZLangRT.pdb
+E:\works\Zyy\Z\Z 0.4\ZCompileCore2\Z语言系统\obj\Debug\Z语言系统.csprojResolveAssemblyReference.cache
+E:\works\Zyy\Z\Z 0.4\ZCompileCore2\Z语言系统\obj\Debug\Z语言系统.dll
+E:\works\Zyy\Z\Z 0.4\ZCompileCore2\Z语言系统\obj\Debug\Z语言系统.pdb
+E:\MyDocuments\Works\Zyy\ZCompileCore2\Z语言系统\bin\Debug\Z语言系统.dll
+E:\MyDocuments\Works\Zyy\ZCompileCore2\Z语言系统\bin\Debug\Z语言系统.pdb
+E:\MyDocuments\Works\Zyy\ZCompileCore2\Z语言系统\bin\Debug\ZLangRT.dll
+E:\MyDocuments\Works\Zyy\ZCompileCore2\Z语言系统\bin\Debug\ZLangRT.pdb
+E:\MyDocuments\Works\Zyy\ZCompileCore2\Z语言系统\obj\Debug\Z语言系统.csprojResolveAssemblyReference.cache
+E:\MyDocuments\Works\Zyy\ZCompileCore2\Z语言系统\obj\Debug\Z语言系统.dll
+E:\MyDocuments\Works\Zyy\ZCompileCore2\Z语言系统\obj\Debug\Z语言系统.pdb
+E:\MyDocuments\MyWares\Works\Zyy\ZCompileCore2A\Z语言系统\bin\Debug\Z语言系统.dll
+E:\MyDocuments\MyWares\Works\Zyy\ZCompileCore2A\Z语言系统\bin\Debug\Z语言系统.pdb
+E:\MyDocuments\MyWares\Works\Zyy\ZCompileCore2A\Z语言系统\bin\Debug\ZLangRT.dll
+E:\MyDocuments\MyWares\Works\Zyy\ZCompileCore2A\Z语言系统\bin\Debug\ZLangRT.pdb
+E:\MyDocuments\MyWares\Works\Zyy\ZCompileCore2A\Z语言系统\obj\Debug\Z语言系统.csprojResolveAssemblyReference.cache
+E:\MyDocuments\MyWares\Works\Zyy\ZCompileCore2A\Z语言系统\obj\Debug\Z语言系统.dll
+E:\MyDocuments\MyWares\Works\Zyy\ZCompileCore2A\Z语言系统\obj\Debug\Z语言系统.pdb
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2A\Z语言系统\bin\Debug\Z语言系统.dll
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2A\Z语言系统\bin\Debug\Z语言系统.pdb
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2A\Z语言系统\bin\Debug\ZLangRT.dll
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2A\Z语言系统\bin\Debug\ZLangRT.pdb
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2A\Z语言系统\obj\Debug\Z语言系统.csprojResolveAssemblyReference.cache
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2A\Z语言系统\obj\Debug\Z语言系统.dll
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2A\Z语言系统\obj\Debug\Z语言系统.pdb
+E:\MyDocuments\MyWares\Works\Zyy\ZCompileCore2B\Z语言系统\bin\Debug\Z语言系统.dll
+E:\MyDocuments\MyWares\Works\Zyy\ZCompileCore2B\Z语言系统\bin\Debug\Z语言系统.pdb
+E:\MyDocuments\MyWares\Works\Zyy\ZCompileCore2B\Z语言系统\bin\Debug\ZLangRT.dll
+E:\MyDocuments\MyWares\Works\Zyy\ZCompileCore2B\Z语言系统\bin\Debug\ZLangRT.pdb
+E:\MyDocuments\MyWares\Works\Zyy\ZCompileCore2B\Z语言系统\obj\Debug\Z语言系统.csprojResolveAssemblyReference.cache
+E:\MyDocuments\MyWares\Works\Zyy\ZCompileCore2B\Z语言系统\obj\Debug\Z语言系统.dll
+E:\MyDocuments\MyWares\Works\Zyy\ZCompileCore2B\Z语言系统\obj\Debug\Z语言系统.pdb
+E:\MySource\Works\Zyy\ZCompileCore2B\Z语言系统\bin\Debug\Z语言系统.dll
+E:\MySource\Works\Zyy\ZCompileCore2B\Z语言系统\bin\Debug\Z语言系统.pdb
+E:\MySource\Works\Zyy\ZCompileCore2B\Z语言系统\bin\Debug\ZLangRT.dll
+E:\MySource\Works\Zyy\ZCompileCore2B\Z语言系统\bin\Debug\ZLangRT.pdb
+E:\MySource\Works\Zyy\ZCompileCore2B\Z语言系统\obj\Debug\Z语言系统.csprojResolveAssemblyReference.cache
+E:\MySource\Works\Zyy\ZCompileCore2B\Z语言系统\obj\Debug\Z语言系统.dll
+E:\MySource\Works\Zyy\ZCompileCore2B\Z语言系统\obj\Debug\Z语言系统.pdb
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2B\Z语言系统\bin\Debug\Z语言系统.dll
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2B\Z语言系统\bin\Debug\Z语言系统.pdb
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2B\Z语言系统\bin\Debug\ZLangRT.dll
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2B\Z语言系统\bin\Debug\ZLangRT.pdb
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2B\Z语言系统\obj\Debug\Z语言系统.csprojResolveAssemblyReference.cache
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2B\Z语言系统\obj\Debug\Z语言系统.dll
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2B\Z语言系统\obj\Debug\Z语言系统.pdb
+E:\MySource\Works\Zyy\ZCompileCore2C\Z语言系统\bin\Debug\Z语言系统.dll
+E:\MySource\Works\Zyy\ZCompileCore2C\Z语言系统\bin\Debug\Z语言系统.pdb
+E:\MySource\Works\Zyy\ZCompileCore2C\Z语言系统\bin\Debug\ZLangRT.dll
+E:\MySource\Works\Zyy\ZCompileCore2C\Z语言系统\bin\Debug\ZLangRT.pdb
+E:\MySource\Works\Zyy\ZCompileCore2C\Z语言系统\obj\Debug\Z语言系统.csprojResolveAssemblyReference.cache
+E:\MySource\Works\Zyy\ZCompileCore2C\Z语言系统\obj\Debug\Z语言系统.dll
+E:\MySource\Works\Zyy\ZCompileCore2C\Z语言系统\obj\Debug\Z语言系统.pdb
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2C\Z语言系统\bin\Debug\Z语言系统.dll
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2C\Z语言系统\bin\Debug\Z语言系统.pdb
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2C\Z语言系统\bin\Debug\ZLangRT.dll
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2C\Z语言系统\bin\Debug\ZLangRT.pdb
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2C\Z语言系统\obj\Debug\Z语言系统.csprojResolveAssemblyReference.cache
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2C\Z语言系统\obj\Debug\Z语言系统.dll
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2C\Z语言系统\obj\Debug\Z语言系统.pdb
+E:\MySource\Works\Zyy\Z2\ZCompileCore2\Z语言系统\bin\Debug\Z语言系统.dll
+E:\MySource\Works\Zyy\Z2\ZCompileCore2\Z语言系统\bin\Debug\Z语言系统.pdb
+E:\MySource\Works\Zyy\Z2\ZCompileCore2\Z语言系统\bin\Debug\ZLangRT.dll
+E:\MySource\Works\Zyy\Z2\ZCompileCore2\Z语言系统\bin\Debug\ZLangRT.pdb
+E:\MySource\Works\Zyy\Z2\ZCompileCore2\Z语言系统\obj\Debug\Z语言系统.csprojResolveAssemblyReference.cache
+E:\MySource\Works\Zyy\Z2\ZCompileCore2\Z语言系统\obj\Debug\Z语言系统.dll
+E:\MySource\Works\Zyy\Z2\ZCompileCore2\Z语言系统\obj\Debug\Z语言系统.pdb
+E:\WorkProjects\Z\Z2\ZCompileCore2\Z语言系统\bin\Debug\Z语言系统.dll
+E:\WorkProjects\Z\Z2\ZCompileCore2\Z语言系统\bin\Debug\Z语言系统.pdb
+E:\WorkProjects\Z\Z2\ZCompileCore2\Z语言系统\bin\Debug\ZLangRT.dll
+E:\WorkProjects\Z\Z2\ZCompileCore2\Z语言系统\bin\Debug\ZLangRT.pdb
+E:\WorkProjects\Z\Z2\ZCompileCore2\Z语言系统\obj\Debug\Z语言系统.csprojResolveAssemblyReference.cache
+E:\WorkProjects\Z\Z2\ZCompileCore2\Z语言系统\obj\Debug\Z语言系统.dll
+E:\WorkProjects\Z\Z2\ZCompileCore2\Z语言系统\obj\Debug\Z语言系统.pdb
+E:\ProgProj\Z\Z2\ZCompileCore2\Z语言系统\bin\Debug\Z语言系统.dll
+E:\ProgProj\Z\Z2\ZCompileCore2\Z语言系统\bin\Debug\Z语言系统.pdb
+E:\ProgProj\Z\Z2\ZCompileCore2\Z语言系统\bin\Debug\ZLangRT.dll
+E:\ProgProj\Z\Z2\ZCompileCore2\Z语言系统\bin\Debug\ZLangRT.pdb
+E:\ProgProj\Z\Z2\ZCompileCore2\Z语言系统\obj\Debug\Z语言系统.csprojResolveAssemblyReference.cache
+E:\ProgProj\Z\Z2\ZCompileCore2\Z语言系统\obj\Debug\Z语言系统.dll
+E:\ProgProj\Z\Z2\ZCompileCore2\Z语言系统\obj\Debug\Z语言系统.pdb

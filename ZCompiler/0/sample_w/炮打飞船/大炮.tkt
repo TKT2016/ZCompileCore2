@@ -1,0 +1,58 @@
+﻿使用包:月光游戏开发框架；
+简略使用:二维向量,颜色,精灵效果，素材资源管理器,常用数学函数,游戏参数;
+
+属于:精灵;
+
+属性:
+    炮弹仓:炮弹列表;
+    长度:整数;
+    高度:整数;
+
+过程:(图形设备:T)
+    Texture = Cannon;// Texture = ContentManager.Cannon;
+    如果Texture!=空// if(Texture != null)
+        长度 = Texture的长度;//长度 = Texture.长度;
+        高度 = Texture的高度;//高度 = Texture.高度;
+    Position = 二维向量(120, device的视口的高度- 80);// Position = new Vector2(120, device.Viewport.高度 - 80);
+    Origin = 二维向量(长度 / 2, 高度 / 2);//Origin = new Vector2(长度 / 2, 高度 / 2);
+    IsAlive = 是;
+    炮弹仓的个数=炮弹最多炮弹数;
+    炮弹仓的每一个=炮弹(T);
+
+过程:开火
+    循环每一个(m_炮弹仓,PD)
+        如果PD的IsAlive==否
+            PD的IsAlive==是;//ball.IsAlive = true;
+            PD的Position = Position - PD的Origin;// ball.Position = Position - ball.Origin;
+            PD的Velocity = 二维向量（COS(Rotation),SIN(Rotation)*0.5）；// ball.Velocity = new Vector2((float)Math.Cos(Rotation),  (float)Math.Sin(Rotation)) * 5.0f;
+            return;
+过程:更新
+     更新输入；// UpdateInput();
+     Rotation = MathHelper.Clamp(Rotation, -MathHelper.PiOver2, 0);//Rotation = MathHelper.Clamp(Rotation, -MathHelper.PiOver2, 0);
+     更新炮弹;//Update炮弹仓();
+
+过程:更新输入
+    if (GamePad.GetState(PlayerIndex.One).ThumbSticks.Left.Y > 0|| InputHandler.IsHoldingKey(Keys.Up))
+                Rotation -= 0.01f;
+
+    if (GamePad.GetState(PlayerIndex.One).ThumbSticks.Left.Y < 0|| InputHandler.IsHoldingKey(Keys.Down))
+                Rotation += 0.01f;
+
+    if (GamePad.GetState(PlayerIndex.One).Buttons.A == ButtonState.Pressed || InputHandler.WasKeyPressed(Keys.Space))
+                FireCannon();
+
+    (输入管理器)复原状态;
+
+过程:更新炮弹
+    (炮弹仓的每一个)更新;  //foreach(CannonBall ball in 炮弹仓) ball.Update();
+
+过程:用(绘图器:H)绘制
+     如果IsAlive==是
+         绘制炮弹(spriteBatch);
+         (spriteBatch)绘制(Texture, Position, null, Color, Rotation, Origin, 1f, Effects, 0);
+         base.Draw(spriteBatch);
+
+过程:用(绘图器:H)绘制炮弹
+     foreach (CannonBall ball in m_炮弹仓)
+                if (ball.IsAlive)
+                    ball.Draw(H);

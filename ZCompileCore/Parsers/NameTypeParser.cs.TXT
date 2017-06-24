@@ -1,0 +1,78 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using ZCompileCore.Lex;
+using ZCompileCore.Parser;
+using ZCompileDesc.Descriptions;
+using ZCompileDesc.Words;
+
+namespace ZCompileCore.Parsers
+{
+    public class NameTypeParser
+    {
+        WordDictionaryList collection;
+
+        public NameTypeParser(WordDictionaryList collection)
+        {
+            this.collection = collection;
+        }
+
+        public ParseResult ParseType(Token token)
+        {
+            string varName = token.GetText();
+            ParseResult result = null;
+            result = ParseNameByAll(token, collection);
+            return result;
+        }
+
+        public ParseResult ParseVar(Token token)
+        {
+            string varName = token.GetText();
+            ParseResult result = null;
+            result =  ParseType(token);
+            if (result == null)  
+                result = ParseNameBySegmenter(token, collection);
+            return result;
+        }
+
+        private ParseResult ParseNameByAll(Token token ,WordDictionaryList collection)
+        {
+            string varName = token.GetText();
+            ParseResult result = null;
+            WordInfo[] words = collection.CurrentGet(varName);
+            if (words.Length > 0)
+            {
+                var zType = words[0].Data as ZType;
+                result = new ParseResult() { TypeName = varName, ZType = zType };
+                return result;
+            }
+            return null;
+        }
+
+        private ParseResult ParseNameBySegmenter(Token token,WordDictionaryList collection)
+        {
+            //WordCollection nameManager = this.procContext.ClassContext.FileContext.GetNameDimWordManger();
+            WordSegmenter segmenter = new WordSegmenter(collection);
+            Token[] newTokens = segmenter.Split(token);
+            if (newTokens.Length == 2)
+            {
+                string argTypeName = newTokens[0].GetText();
+                var ArgType = ZTypeCache.GetByZName(argTypeName)[0] as ZType;
+                var result = new ParseResult() { TypeName = argTypeName, ZType = ArgType, VarName = newTokens[1].GetText() };
+                return result;
+            }
+            else
+            {
+                return null;
+            }
+        }
+
+        public class ParseResult
+        {
+            public string TypeName;
+            public ZType ZType;
+            public string VarName;
+        }
+    }
+}

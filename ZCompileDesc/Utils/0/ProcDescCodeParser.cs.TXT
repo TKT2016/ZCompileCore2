@@ -1,0 +1,234 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Reflection;
+using System.Text;
+using System.Threading.Tasks;
+using ZLangRT;
+using ZLangRT.Utils;
+using ZyyDesc.Descriptions;
+
+namespace ZyyDesc.Utils
+{
+    public class ProcDescCodeParser
+    {
+        //Dictionary<string, Type> ArgTypeDict;
+
+		public ProcDescCodeParser()
+        {
+            //ArgTypeDict = new Dictionary<string, Type>();
+            //ArgTypeDict.Add("object", typeof(object));
+            //ArgTypeDict.Add("Object", typeof(object));
+            //ArgTypeDict.Add("int", typeof(int));
+            //ArgTypeDict.Add("float", typeof(float));
+            //ArgTypeDict.Add("bool", typeof(bool));
+            //ArgTypeDict.Add("string", typeof(string));
+            //ArgTypeDict.Add("String", typeof(string));
+            //ArgTypeDict.Add("void", typeof(void));
+            //ArgTypeDict.Add("可运行条件", typeof(Func<bool>));
+            //ArgTypeDict.Add("可运行语句", typeof(Action));
+        }
+        
+        //void AddType(Type type)
+        //{
+        //    string name = type.Name;
+        //    if (ArgTypeDict.ContainsKey(name) == false)
+        //        ArgTypeDict.Add(name, type);
+        //}
+        
+        //void AddType(string name,Type type)
+        //{
+        //    if (ArgTypeDict.ContainsKey(name) == false)
+        //        ArgTypeDict.Add(name, type);
+        //}
+
+        /*
+        public void InitType(Type type, MethodInfo method)
+        {
+            if (type.IsGenericType)
+            {
+                Type parentType = type.GetGenericTypeDefinition();
+                Type[] subTypes = GenericUtil.GetInstanceGenriceType(type, parentType);
+                Type[] gengeParams = parentType.GetGenericArguments();
+                for (int i = 0; i < gengeParams.Length; i++)
+                {
+                    AddType(gengeParams[i].Name, subTypes[i]);
+                }
+            }
+            ParameterInfo[] paramArray = method.GetParameters();
+            foreach (var param in paramArray)
+            {
+                if (!param.ParameterType.IsGenericType)
+                    AddType(param.ParameterType);
+            }
+
+            foreach (var param in paramArray)
+            {
+                if (param.ParameterType.IsGenericType)
+                {
+                    var ptype = param.ParameterType;
+                    Type parentType = ptype.GetGenericTypeDefinition();
+                    Type[] subTypes = GenericUtil.GetInstanceGenriceType(ptype, parentType);
+                    Type[] gengeParams = parentType.GetGenericArguments();
+                    //Type[] arr2 = new Type[gengeParams.Length];
+                    string[] subNames = new string[gengeParams.Length];
+                    for (int i = 0; i < gengeParams.Length; i++)
+                    {
+                        //subNames[i] = gengeParams[i].Name;
+                        //AddType(gengeParams[i].Name, subTypes[i]);
+                        string gengeParamName = gengeParams[i].Name;
+                        subNames[i] = gengeParamName;
+                        //arr2[i] = ArgTypeDict[gengeParamName];
+                    }
+                    Type newType = ptype;// ptype.MakeGenericType(arr2);
+                    string newTypeName = GenericUtil.GetGenericTypeShortName(ptype) + "<" + string.Join(",", subNames) + ">";
+                    AddType(newTypeName, newType);
+                }
+            }
+        }*/
+
+        int i = 0;
+        ZProcDesc desc = null;
+        string Code = null;
+        char ch
+        {
+            get
+            {
+                if (i > Code.Length - 1) return '\0';
+                return Code[i];
+            }
+        }
+
+        public ZProcDesc Parser(string code)
+        {
+            //this.WordDict = wordDict;
+            i = 0;
+            desc = new ZProcDesc();
+            Code = code;
+            while (i < Code.Length)
+            {
+                if(ch=='(')
+                {
+                    parseBracket();
+                }
+                else
+                {
+                    parseText();
+                }
+            }
+            return desc;
+        }
+
+        void parseText()
+        {
+            StringBuilder buff = new StringBuilder();
+            for (;  i < Code.Length&&ch != '(' ; i++)
+            {
+                buff.Append(ch);
+            }
+            desc.Add(buff.ToString());
+        }
+
+        void parseBracket()
+        {
+            i++;
+            List<ZMethodArg> bracketargs = new List<ZMethodArg>();
+            //Dictionary<string, TKTProcArg> dict = new Dictionary<string, TKTProcArg>();
+            for (; i < Code.Length; i++ )
+            {
+                ZMethodArg arg = parseArg();
+                if (arg != null)
+                {
+                    bracketargs.Add(arg);
+                }
+                //dict.Add(arg.ArgName, arg);
+                if(ch=='\0')
+                {
+                    break;
+                }
+                if (ch == ')')
+                {
+                    i++;
+                    break;
+                } 
+            }
+            //TKTProcBracket bracket = new TKTProcBracket(bracketargs,dict);
+            desc.Add(bracketargs.ToArray());
+        }
+
+        ZMethodArg parseArg()
+        {
+            string argtypename = parseIdent();
+            movenext();
+            string argname = parseIdent();
+            string realArgName = argname;
+            if (string.IsNullOrEmpty(argname)) return null;
+            //if (this.WordDict != null)
+            //{
+            //    realArgName = this.WordDict.Get(argname);
+            //}
+            ZMethodArg arg = null;
+            /*if (argtypename=="类型")
+            {
+                Type type = typeof(object);
+                arg = new TKTProcArg(realArgName, ZTypeCache.GetZTypeBySharp( type), true);
+            }
+            else*/
+           
+            //if (ArgTypeDict.ContainsKey(argtypename))
+            //{
+            //    Type type = ArgTypeDict[argtypename];
+            //    arg = new ZProcArg(realArgName, ZTypeCache.CreateZType(type));
+            //}
+            if (argtypename=="Func<bool>")
+            {
+                arg = new ZMethodArg(realArgName, ZTypeCache.GetByZType(typeof(Func<bool>)));
+            }
+            else if(argtypename=="Action")
+            {
+                arg = new ZMethodArg(realArgName, ZTypeCache.GetByZType(typeof(Action)));
+            }
+			else
+            {
+                ZType[] ztypes =  ZTypeCache.GetByZName(argtypename);
+                if(ztypes.Length==0)
+                {
+                    ztypes = ZTypeCache.GetBySharpName(argtypename);
+                }
+                if(ztypes.Length>0)
+                {
+                    ZType ztype = ztypes[0];
+                    arg = new ZMethodArg(realArgName, ztype);
+                }
+                else
+                {
+                    throw new RTException("没有导入'" + argtypename + "'类型");
+                }
+               
+            }	
+            return arg;
+        }
+
+        string parseIdent()
+        {
+            StringBuilder buff = new StringBuilder();
+            for (; i < Code.Length; i++)
+            {
+                if (ch == ':'||ch == ')'||ch == ',')
+                {
+                    break;
+                }
+                else
+                {
+                    buff.Append(ch);
+                }
+            }
+            return buff.ToString();
+        }
+
+        void movenext()
+        {
+            i++;
+        }
+    }
+}

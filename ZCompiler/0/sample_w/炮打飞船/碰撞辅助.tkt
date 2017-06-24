@@ -1,0 +1,9 @@
+﻿使用包:月光游戏开发框架；
+简略使用:常用数学函数;
+属于:唯一类型;
+
+过程:判断矩形相交(矩形:rectA,矩形:rectB)=>判断符
+    if(rectA.X < rectB.X + rectB.Width && rectA.X + rectA.Width> rectB.X && rectA.Y < rectB.Y + rectB.Height && rectA.Height + rectA.Y > rectB.Y)
+        结果= 是;
+   否则
+        结果= 否;

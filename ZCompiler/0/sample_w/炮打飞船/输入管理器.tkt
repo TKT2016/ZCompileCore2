@@ -1,0 +1,35 @@
+﻿使用包:月光游戏开发框架；
+属于:唯一类型;
+名称:输入管理器
+
+属性:
+       keyboardState:KeyboardState ;
+       prevKeyboardState:KeyboardState ;
+
+       gamePadState:GamePadState ;
+        prevGamePadState: GamePadState ;
+       mouseState: MouseState ;
+        prevMouseState MouseState ;
+
+过程: 按下(键盘按键:key)=>判断符
+       结果  =  (keyboardState.IsKeyDown(key));
+
+过程: 松开(键盘按键:key)=>判断符
+        结果  =  (keyboardState.IsKeyUp(key));
+
+过程: 按住(键盘按键:key)=>判断符
+      结果  =  (prevKeyboardState.IsKeyDown(key) && keyboardState.IsKeyDown(key));
+
+过程: 敲击(键盘按键:key)=>判断符
+       结果  = (prevKeyboardState.IsKeyUp(key) && keyboardState.IsKeyDown(key));
+
+
+过程: 复原状态
+            prevKeyboardState = keyboardState;
+            keyboardState = Keyboard.GetState();
+
+            prevGamePadState = gamePadState;
+            gamePadState = GamePad.GetState(PlayerIndex.One);
+
+            prevMouseState = mouseState;
+            mouseState = Mouse.GetState();

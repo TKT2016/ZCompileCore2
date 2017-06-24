@@ -1,0 +1,39 @@
+﻿使用包:月光游戏开发框架；
+简略使用:常用数学函数,输入管理器;
+属于:游戏;
+
+属性:
+    graphics:图像设备管理器 ;
+    H: 绘图器;
+    m_Level:积分器 ;
+
+过程:()
+            graphics = new GraphicsDeviceManager(this);
+            Content.RootDirectory = "Content";
+            graphics.PreferredBackBufferWidth = 800;
+            graphics.PreferredBackBufferHeight = 600;
+            graphics.ApplyChanges();
+
+过程:LoadContent
+            H = new 绘图器(GraphicsDevice);
+            素材管理器.Load(Content);
+            m_Level = new Level(graphics的图形设备);
+
+
+过程:更新(游戏时钟:gameTime)
+       更新输入;
+       m_Level.Update();
+       base.Update(gameTime);
+
+过程:更新输入
+    if (敲击(退出键))
+         Exit();
+   (输入管理器)复原状态;
+
+过程: 根据(游戏时钟:gameTime)绘制
+            GraphicsDevice.Clear(Color.CornflowerBlue);
+            H.Begin();
+            (m_Level)用(H)绘制;
+            H.End();
+            base.Draw(gameTime);
+

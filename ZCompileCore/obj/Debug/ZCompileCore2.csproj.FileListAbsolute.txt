@@ -1,0 +1,75 @@
+E:\MyDocuments\MyWares\Works\Zyy\ZCompileCore2A\ZCompileCore2\obj\Debug\ZCompileCore2.csprojResolveAssemblyReference.cache
+E:\MyDocuments\MyWares\Works\Zyy\ZCompileCore2A\ZCompileCore2\bin\Debug\ZLangRT.dll
+E:\MyDocuments\MyWares\Works\Zyy\ZCompileCore2A\ZCompileCore2\bin\Debug\Z语言系统.dll
+E:\MyDocuments\MyWares\Works\Zyy\ZCompileCore2A\ZCompileCore2\bin\Debug\ZLangRT.pdb
+E:\MyDocuments\MyWares\Works\Zyy\ZCompileCore2A\ZCompileCore2\bin\Debug\Z语言系统.pdb
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2A\ZCompileCore2\obj\Debug\ZCompileCore2.csprojResolveAssemblyReference.cache
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2A\ZCompileCore2\bin\Debug\ZCompileCore.exe
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2A\ZCompileCore2\bin\Debug\ZCompileCore.pdb
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2A\ZCompileCore2\bin\Debug\ZLangRT.dll
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2A\ZCompileCore2\bin\Debug\Z语言系统.dll
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2A\ZCompileCore2\bin\Debug\ZLangRT.pdb
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2A\ZCompileCore2\bin\Debug\Z语言系统.pdb
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2A\ZCompileCore2\obj\Debug\ZCompileCore.exe
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2A\ZCompileCore2\obj\Debug\ZCompileCore.pdb
+E:\MyDocuments\MyWares\Works\Zyy\ZCompileCore2A\ZCompileCore2\obj\Debug\ZCompileCore.pdb
+E:\MyDocuments\MyWares\Works\Zyy\ZCompileCore2A\ZCompileCore2\bin\Debug\ZCompileCore.dll
+E:\MyDocuments\MyWares\Works\Zyy\ZCompileCore2A\ZCompileCore2\bin\Debug\ZCompileCore.pdb
+E:\MyDocuments\MyWares\Works\Zyy\ZCompileCore2A\ZCompileCore2\obj\Debug\ZCompileCore.dll
+E:\MyDocuments\MyWares\Works\Zyy\ZCompileCore2A\ZCompileCore2\bin\Debug\ZyyTypeReflection.dll
+E:\MyDocuments\MyWares\Works\Zyy\ZCompileCore2A\ZCompileCore2\bin\Debug\ZyyTypeReflection.pdb
+E:\MyDocuments\MyWares\Works\Zyy\ZCompileCore2B\ZCompileCore2\obj\Debug\ZCompileCore2.csprojResolveAssemblyReference.cache
+E:\MyDocuments\MyWares\Works\Zyy\ZCompileCore2B\ZCompileCore2\obj\Debug\ZCompileCore.dll
+E:\MyDocuments\MyWares\Works\Zyy\ZCompileCore2B\ZCompileCore2\obj\Debug\ZCompileCore.pdb
+E:\MyDocuments\MyWares\Works\Zyy\ZCompileCore2B\ZCompileCore2\bin\Debug\ZCompileCore.dll
+E:\MyDocuments\MyWares\Works\Zyy\ZCompileCore2B\ZCompileCore2\bin\Debug\ZCompileCore.pdb
+E:\MyDocuments\MyWares\Works\Zyy\ZCompileCore2B\ZCompileCore2\bin\Debug\ZLangRT.dll
+E:\MyDocuments\MyWares\Works\Zyy\ZCompileCore2B\ZCompileCore2\bin\Debug\Z语言系统.dll
+E:\MyDocuments\MyWares\Works\Zyy\ZCompileCore2B\ZCompileCore2\bin\Debug\ZLangRT.pdb
+E:\MyDocuments\MyWares\Works\Zyy\ZCompileCore2B\ZCompileCore2\bin\Debug\Z语言系统.pdb
+E:\MyDocuments\MyWares\Works\Zyy\ZCompileCore2B\ZCompileCore2\bin\Debug\ZyyDesc.dll
+E:\MyDocuments\MyWares\Works\Zyy\ZCompileCore2B\ZCompileCore2\bin\Debug\ZyyDesc.pdb
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2B\ZCompileCore2\obj\Debug\ZCompileCore2.csprojResolveAssemblyReference.cache
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2B\ZCompileCore2\obj\Debug\ZCompileCore.dll
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2B\ZCompileCore2\bin\Debug\ZCompileCore.dll
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2B\ZCompileCore2\bin\Debug\ZCompileCore.pdb
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2B\ZCompileCore2\bin\Debug\ZLangRT.dll
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2B\ZCompileCore2\bin\Debug\ZyyDesc.dll
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2B\ZCompileCore2\bin\Debug\Z语言系统.dll
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2B\ZCompileCore2\bin\Debug\ZLangRT.pdb
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2B\ZCompileCore2\bin\Debug\ZyyDesc.pdb
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2B\ZCompileCore2\bin\Debug\Z语言系统.pdb
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2B\ZCompileCore2\obj\Debug\ZCompileCore.pdb
+E:\MySource\Works\Zyy\ZCompileCore2B\ZCompileCore2\bin\Debug\ZCompileCore.dll
+E:\MySource\Works\Zyy\ZCompileCore2B\ZCompileCore2\bin\Debug\ZCompileCore.pdb
+E:\MySource\Works\Zyy\ZCompileCore2B\ZCompileCore2\bin\Debug\ZLangRT.dll
+E:\MySource\Works\Zyy\ZCompileCore2B\ZCompileCore2\bin\Debug\ZyyDesc.dll
+E:\MySource\Works\Zyy\ZCompileCore2B\ZCompileCore2\bin\Debug\Z语言系统.dll
+E:\MySource\Works\Zyy\ZCompileCore2B\ZCompileCore2\bin\Debug\ZLangRT.pdb
+E:\MySource\Works\Zyy\ZCompileCore2B\ZCompileCore2\bin\Debug\ZyyDesc.pdb
+E:\MySource\Works\Zyy\ZCompileCore2B\ZCompileCore2\bin\Debug\Z语言系统.pdb
+E:\MySource\Works\Zyy\ZCompileCore2B\ZCompileCore2\obj\Debug\ZCompileCore2.csprojResolveAssemblyReference.cache
+E:\MySource\Works\Zyy\ZCompileCore2B\ZCompileCore2\obj\Debug\ZCompileCore.dll
+E:\MySource\Works\Zyy\ZCompileCore2B\ZCompileCore2\obj\Debug\ZCompileCore.pdb
+E:\MySource\Works\Zyy\ZCompileCore2C\ZCompileCore2\obj\Debug\ZCompileCore2.csprojResolveAssemblyReference.cache
+E:\MySource\Works\Zyy\ZCompileCore2C\ZCompileCore2\obj\Debug\ZCompileCore.dll
+E:\MySource\Works\Zyy\ZCompileCore2C\ZCompileCore2\bin\Debug\ZCompileCore.dll
+E:\MySource\Works\Zyy\ZCompileCore2C\ZCompileCore2\bin\Debug\ZCompileCore.pdb
+E:\MySource\Works\Zyy\ZCompileCore2C\ZCompileCore2\bin\Debug\ZLangRT.dll
+E:\MySource\Works\Zyy\ZCompileCore2C\ZCompileCore2\bin\Debug\ZyyDesc.dll
+E:\MySource\Works\Zyy\ZCompileCore2C\ZCompileCore2\bin\Debug\Z语言系统.dll
+E:\MySource\Works\Zyy\ZCompileCore2C\ZCompileCore2\bin\Debug\ZLangRT.pdb
+E:\MySource\Works\Zyy\ZCompileCore2C\ZCompileCore2\bin\Debug\ZyyDesc.pdb
+E:\MySource\Works\Zyy\ZCompileCore2C\ZCompileCore2\bin\Debug\Z语言系统.pdb
+E:\MySource\Works\Zyy\ZCompileCore2C\ZCompileCore2\obj\Debug\ZCompileCore.pdb
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2C\ZCompileCore2\obj\Debug\ZCompileCore2.csprojResolveAssemblyReference.cache
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2C\ZCompileCore2\obj\Debug\ZCompileCore.dll
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2C\ZCompileCore2\bin\Debug\ZCompileCore.dll
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2C\ZCompileCore2\bin\Debug\ZCompileCore.pdb
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2C\ZCompileCore2\bin\Debug\ZLangRT.dll
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2C\ZCompileCore2\bin\Debug\ZyyDesc.dll
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2C\ZCompileCore2\bin\Debug\Z语言系统.dll
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2C\ZCompileCore2\bin\Debug\ZLangRT.pdb
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2C\ZCompileCore2\bin\Debug\ZyyDesc.pdb
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2C\ZCompileCore2\bin\Debug\Z语言系统.pdb
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2C\ZCompileCore2\obj\Debug\ZCompileCore.pdb

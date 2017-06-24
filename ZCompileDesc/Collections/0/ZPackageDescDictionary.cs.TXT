@@ -1,0 +1,33 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using ZCompileDesc.Words;
+
+namespace ZCompileDesc.Descriptions
+{
+    public class ZPackageDescDictionary : Dictionary<string, ZPackageDesc>, IWordDictionary
+    {
+        public ZPackageDesc GetZPackage(string packageName)
+        {
+            if (this.ContainsKey(packageName))
+            {
+                return this[packageName];
+            }
+            else
+            {
+                return null;
+            }
+        }
+
+        public WordInfo SearchWord(string text)
+        {
+            return IWordDictionaryHelper.SearchWord(text, this.Values);
+        }
+
+        public bool ContainsWord(string text)
+        {
+            return IWordDictionaryHelper.ContainsWord(text,this.Values);
+        }
+    }
+}

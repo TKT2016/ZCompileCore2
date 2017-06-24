@@ -1,0 +1,60 @@
+﻿使用包:月光游戏开发框架；
+简略使用:二维向量,颜色,精灵效果，素材资源管理器,常用数学函数,TKT系统;
+属于:事物;
+名称:积分器;
+
+常量:
+    m_MaxEnemies = 3;
+属性:
+    m_Cannon:Cannon;
+    m_Enemies:敌船列表;
+    m_Random:Random;
+    m_Viewport:矩形;
+
+过程:(图形设备:T)
+    m_Cannon = 大炮(T);
+    m_Enemies的长度=m_MaxEnemies;
+    m_Enemies的每一个=系统创建新(敌船);
+    m_Random = new Random();
+    m_Viewport = 矩形(0, 0, T的视口的长度, T的视口的高度);
+
+过程:更新
+    (m_Cannon)更新;
+    更新敌船;
+    处理碰撞;
+
+过程:更新敌船
+    循环每一个(m_Enemies,enemy)
+        如果enemy的IsAlive==是
+            enemy的位置+=enemy的速度;//enemy.Position += enemy.Velocity;
+            如果(!m_Viewport.Contains(new Point((int)enemy.Position.X, (int)enemy.Position.Y)))
+                enemy.IsAlive = false;
+        否则
+            enemy的IsAlive = 是;
+            enemy的Position=二维向量(m_Viewport.Right, MathHelper.Lerp( (float)m_Viewport.Height * 0.5f, (float)m_Viewport.Height * 0.1f, (float)m_Random.NextDouble()));
+            enemy的速度 =二维向量(MathHelper.Lerp(-1.0f, -5.0f, (float)m_Random.NextDouble()), 0);
+
+过程:处理碰撞
+    循环每一个(m_Cannon的CannonBalls,ball)
+                foreach (Enemy enemy in m_Enemies)
+                {
+                    enemy.Source = new Rectangle((int)enemy.Position.X, (int)enemy.Position.Y, enemy.Width, enemy.Height);
+                    ball.Source = new Rectangle((int)ball.Position.X, (int)ball.Position.Y, ball.Width, ball.Height);                   
+
+                    if (ball.IsAlive)
+                    {
+                        if (CollisionHandler.Intersects(enemy.Source, ball.Source))
+                        {
+                            enemy.IsAlive = false;
+                            ball.IsAlive = false;
+                            break;
+                        }
+                    }
+                }
+            }
+        
+过程:用(绘图器:H)绘制
+    (H)绘制(背景纹理, 原点, 白色);
+    (m_Cannon)用(H)绘制;
+    (m_Enemies的每一个)用(H)绘制;
+

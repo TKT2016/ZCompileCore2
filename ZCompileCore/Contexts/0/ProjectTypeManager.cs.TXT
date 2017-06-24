@@ -1,0 +1,33 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using ZCompileDesc.Descriptions;
+
+namespace ZCompileCore.Contexts
+{
+    public class ProjectTypeManager
+    {
+        public Dictionary<string, IZDescType> EmitedZDescTypeDictionary = new Dictionary<string, IZDescType>();
+
+        public bool Add(IZDescType ztype)
+        {
+            string name = ztype.ZName;
+            if (Contains(name)) return false;
+            EmitedZDescTypeDictionary.Add(name, ztype);
+            return true;
+        }
+
+        public bool Add(string name, IZDescType type)
+        {
+            if (Contains(name)) return false;
+            EmitedZDescTypeDictionary.Add(name, type);
+            return true;
+        }
+
+        public bool Contains(string name)
+        {
+            return EmitedZDescTypeDictionary.ContainsKey(name);
+        }
+    }
+}

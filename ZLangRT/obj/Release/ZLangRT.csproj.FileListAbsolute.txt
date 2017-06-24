@@ -1,0 +1,10 @@
+E:\WorkProjects\Z\Z 0.3\ZCompileCore 0.3\ZLangRT\bin\Release\ZLangRT.dll
+E:\WorkProjects\Z\Z 0.3\ZCompileCore 0.3\ZLangRT\bin\Release\ZLangRT.pdb
+E:\WorkProjects\Z\Z 0.3\ZCompileCore 0.3\ZLangRT\obj\Release\ZLangRT.csprojResolveAssemblyReference.cache
+E:\WorkProjects\Z\Z 0.3\ZCompileCore 0.3\ZLangRT\obj\Release\ZLangRT.dll
+E:\WorkProjects\Z\Z 0.3\ZCompileCore 0.3\ZLangRT\obj\Release\ZLangRT.pdb
+E:\ProgProj\Z\Z2\ZCompileCore2\ZLangRT\bin\Release\ZLangRT.dll
+E:\ProgProj\Z\Z2\ZCompileCore2\ZLangRT\bin\Release\ZLangRT.pdb
+E:\ProgProj\Z\Z2\ZCompileCore2\ZLangRT\obj\Release\ZLangRT.csprojResolveAssemblyReference.cache
+E:\ProgProj\Z\Z2\ZCompileCore2\ZLangRT\obj\Release\ZLangRT.dll
+E:\ProgProj\Z\Z2\ZCompileCore2\ZLangRT\obj\Release\ZLangRT.pdb

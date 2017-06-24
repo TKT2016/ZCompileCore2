@@ -1,0 +1,33 @@
+﻿使用包:月光游戏开发框架；
+简略使用:二维向量,颜色,精灵效果;
+属于:事物;
+
+属性:
+    纹理 ：二维纹理；//protected Texture2D Texture;
+    Source:矩形;// public Rectangle Source;
+    位置:二维向量;//public Vector2 Position;
+    出生地点:二维向量;//public Vector2 出生地点;
+    颜色:颜色;//public Color Color;
+    Effects：精灵效果；// public SpriteEffects Effects;
+    Rotation:浮点数; //public Single Rotation;
+    Scale:浮点数;//public Single Scale;
+    Depth:浮点数; //public Single Depth;
+    IsAlive:判断符; //public bool IsAlive;
+
+过程:()
+    纹理=空;// this.Texture = null;
+    Source =矩形(0,0,0,0);// Source = new Rectangle(0, 0, 0, 0);
+    位置=原点; //Position = Vector2.Zero;
+    出生地点=原点; //出生地点 = Vector2.Zero;
+    颜色=白色;// Color = Color.White;
+    Effects =无效果； // Effects = SpriteEffects.None;
+    Rotation = 0;
+    Scale = 1;//Scale = 1f;
+    Depth = 0;//Depth = 0f;
+    IsAlive=否;//IsAlive = false;
+
+过程:更新 // public abstract void Update();
+
+过程:用(绘图器:H)绘制
+    (H)绘制(纹理, 位置, Source, 颜色, Rotation, 出生地点, Scale, Effects, Depth);
+

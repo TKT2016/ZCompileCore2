@@ -1,0 +1,126 @@
+E:\WorkProjects\Z\Z 0.3\ZCompileCore 0.3\TKT.CLRTest\bin\Debug\TKT.CLRTest.exe
+E:\WorkProjects\Z\Z 0.3\ZCompileCore 0.3\TKT.CLRTest\bin\Debug\TKT.CLRTest.pdb
+E:\WorkProjects\Z\Z 0.3\ZCompileCore 0.3\TKT.CLRTest\bin\Debug\ZLangRT.dll
+E:\WorkProjects\Z\Z 0.3\ZCompileCore 0.3\TKT.CLRTest\bin\Debug\Z语言系统.dll
+E:\WorkProjects\Z\Z 0.3\ZCompileCore 0.3\TKT.CLRTest\bin\Debug\ZLangRT.pdb
+E:\WorkProjects\Z\Z 0.3\ZCompileCore 0.3\TKT.CLRTest\bin\Debug\Z语言系统.pdb
+E:\WorkProjects\Z\Z 0.3\ZCompileCore 0.3\TKT.CLRTest\obj\Debug\TKT.CLRTest.csprojResolveAssemblyReference.cache
+E:\WorkProjects\Z\Z 0.3\ZCompileCore 0.3\TKT.CLRTest\obj\Debug\TKT.CLRTest.exe
+E:\WorkProjects\Z\Z 0.3\ZCompileCore 0.3\TKT.CLRTest\obj\Debug\TKT.CLRTest.pdb
+E:\WorkProjects\Z\Z 0.4\ZCompileCore2\TKT.CLRTest\bin\Debug\TKT.CLRTest.exe
+E:\WorkProjects\Z\Z 0.4\ZCompileCore2\TKT.CLRTest\bin\Debug\TKT.CLRTest.pdb
+E:\WorkProjects\Z\Z 0.4\ZCompileCore2\TKT.CLRTest\bin\Debug\ZLangRT.dll
+E:\WorkProjects\Z\Z 0.4\ZCompileCore2\TKT.CLRTest\bin\Debug\Z语言系统.dll
+E:\WorkProjects\Z\Z 0.4\ZCompileCore2\TKT.CLRTest\bin\Debug\ZLangRT.pdb
+E:\WorkProjects\Z\Z 0.4\ZCompileCore2\TKT.CLRTest\bin\Debug\Z语言系统.pdb
+E:\WorkProjects\Z\Z 0.4\ZCompileCore2\TKT.CLRTest\obj\Debug\TKT.CLRTest.csprojResolveAssemblyReference.cache
+E:\WorkProjects\Z\Z 0.4\ZCompileCore2\TKT.CLRTest\obj\Debug\TKT.CLRTest.exe
+E:\WorkProjects\Z\Z 0.4\ZCompileCore2\TKT.CLRTest\obj\Debug\TKT.CLRTest.pdb
+E:\works\Zyy\Z\Z 0.4\ZCompileCore2\TKT.CLRTest\bin\Debug\TKT.CLRTest.exe
+E:\works\Zyy\Z\Z 0.4\ZCompileCore2\TKT.CLRTest\bin\Debug\TKT.CLRTest.pdb
+E:\works\Zyy\Z\Z 0.4\ZCompileCore2\TKT.CLRTest\bin\Debug\ZLangRT.dll
+E:\works\Zyy\Z\Z 0.4\ZCompileCore2\TKT.CLRTest\bin\Debug\Z语言系统.dll
+E:\works\Zyy\Z\Z 0.4\ZCompileCore2\TKT.CLRTest\bin\Debug\ZLangRT.pdb
+E:\works\Zyy\Z\Z 0.4\ZCompileCore2\TKT.CLRTest\bin\Debug\Z语言系统.pdb
+E:\works\Zyy\Z\Z 0.4\ZCompileCore2\TKT.CLRTest\obj\Debug\TKT.CLRTest.csprojResolveAssemblyReference.cache
+E:\works\Zyy\Z\Z 0.4\ZCompileCore2\TKT.CLRTest\obj\Debug\TKT.CLRTest.exe
+E:\works\Zyy\Z\Z 0.4\ZCompileCore2\TKT.CLRTest\obj\Debug\TKT.CLRTest.pdb
+E:\MyDocuments\Works\Zyy\ZCompileCore2\TKT.CLRTest\bin\Debug\TKT.CLRTest.exe
+E:\MyDocuments\Works\Zyy\ZCompileCore2\TKT.CLRTest\bin\Debug\TKT.CLRTest.pdb
+E:\MyDocuments\Works\Zyy\ZCompileCore2\TKT.CLRTest\bin\Debug\ZLangRT.dll
+E:\MyDocuments\Works\Zyy\ZCompileCore2\TKT.CLRTest\bin\Debug\Z语言系统.dll
+E:\MyDocuments\Works\Zyy\ZCompileCore2\TKT.CLRTest\bin\Debug\ZLangRT.pdb
+E:\MyDocuments\Works\Zyy\ZCompileCore2\TKT.CLRTest\bin\Debug\Z语言系统.pdb
+E:\MyDocuments\Works\Zyy\ZCompileCore2\TKT.CLRTest\obj\Debug\TKT.CLRTest.csprojResolveAssemblyReference.cache
+E:\MyDocuments\Works\Zyy\ZCompileCore2\TKT.CLRTest\obj\Debug\TKT.CLRTest.exe
+E:\MyDocuments\Works\Zyy\ZCompileCore2\TKT.CLRTest\obj\Debug\TKT.CLRTest.pdb
+E:\MyDocuments\MyWares\Works\Zyy\ZCompileCore2A\TKT.CLRTest\bin\Debug\TKT.CLRTest.exe
+E:\MyDocuments\MyWares\Works\Zyy\ZCompileCore2A\TKT.CLRTest\bin\Debug\TKT.CLRTest.pdb
+E:\MyDocuments\MyWares\Works\Zyy\ZCompileCore2A\TKT.CLRTest\bin\Debug\ZLangRT.dll
+E:\MyDocuments\MyWares\Works\Zyy\ZCompileCore2A\TKT.CLRTest\bin\Debug\Z语言系统.dll
+E:\MyDocuments\MyWares\Works\Zyy\ZCompileCore2A\TKT.CLRTest\bin\Debug\ZLangRT.pdb
+E:\MyDocuments\MyWares\Works\Zyy\ZCompileCore2A\TKT.CLRTest\bin\Debug\Z语言系统.pdb
+E:\MyDocuments\MyWares\Works\Zyy\ZCompileCore2A\TKT.CLRTest\obj\Debug\TKT.CLRTest.csprojResolveAssemblyReference.cache
+E:\MyDocuments\MyWares\Works\Zyy\ZCompileCore2A\TKT.CLRTest\obj\Debug\TKT.CLRTest.exe
+E:\MyDocuments\MyWares\Works\Zyy\ZCompileCore2A\TKT.CLRTest\obj\Debug\TKT.CLRTest.pdb
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2A\TKT.CLRTest\bin\Debug\TKT.CLRTest.exe
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2A\TKT.CLRTest\bin\Debug\TKT.CLRTest.pdb
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2A\TKT.CLRTest\bin\Debug\ZLangRT.dll
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2A\TKT.CLRTest\bin\Debug\Z语言系统.dll
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2A\TKT.CLRTest\bin\Debug\ZLangRT.pdb
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2A\TKT.CLRTest\bin\Debug\Z语言系统.pdb
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2A\TKT.CLRTest\obj\Debug\TKT.CLRTest.csprojResolveAssemblyReference.cache
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2A\TKT.CLRTest\obj\Debug\TKT.CLRTest.exe
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2A\TKT.CLRTest\obj\Debug\TKT.CLRTest.pdb
+E:\MyDocuments\MyWares\Works\Zyy\ZCompileCore2B\TKT.CLRTest\bin\Debug\TKT.CLRTest.exe
+E:\MyDocuments\MyWares\Works\Zyy\ZCompileCore2B\TKT.CLRTest\bin\Debug\TKT.CLRTest.pdb
+E:\MyDocuments\MyWares\Works\Zyy\ZCompileCore2B\TKT.CLRTest\bin\Debug\ZLangRT.dll
+E:\MyDocuments\MyWares\Works\Zyy\ZCompileCore2B\TKT.CLRTest\bin\Debug\Z语言系统.dll
+E:\MyDocuments\MyWares\Works\Zyy\ZCompileCore2B\TKT.CLRTest\bin\Debug\ZLangRT.pdb
+E:\MyDocuments\MyWares\Works\Zyy\ZCompileCore2B\TKT.CLRTest\bin\Debug\Z语言系统.pdb
+E:\MyDocuments\MyWares\Works\Zyy\ZCompileCore2B\TKT.CLRTest\obj\Debug\TKT.CLRTest.csprojResolveAssemblyReference.cache
+E:\MyDocuments\MyWares\Works\Zyy\ZCompileCore2B\TKT.CLRTest\obj\Debug\TKT.CLRTest.exe
+E:\MyDocuments\MyWares\Works\Zyy\ZCompileCore2B\TKT.CLRTest\obj\Debug\TKT.CLRTest.pdb
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2B\TKT.CLRTest\bin\Debug\TKT.CLRTest.exe
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2B\TKT.CLRTest\bin\Debug\TKT.CLRTest.pdb
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2B\TKT.CLRTest\bin\Debug\ZLangRT.dll
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2B\TKT.CLRTest\bin\Debug\Z语言系统.dll
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2B\TKT.CLRTest\bin\Debug\ZLangRT.pdb
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2B\TKT.CLRTest\bin\Debug\Z语言系统.pdb
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2B\TKT.CLRTest\obj\Debug\TKT.CLRTest.csprojResolveAssemblyReference.cache
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2B\TKT.CLRTest\obj\Debug\TKT.CLRTest.exe
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2B\TKT.CLRTest\obj\Debug\TKT.CLRTest.pdb
+E:\MySource\Works\Zyy\ZCompileCore2B\TKT.CLRTest\bin\Debug\TKT.CLRTest.exe
+E:\MySource\Works\Zyy\ZCompileCore2B\TKT.CLRTest\bin\Debug\TKT.CLRTest.pdb
+E:\MySource\Works\Zyy\ZCompileCore2B\TKT.CLRTest\bin\Debug\ZLangRT.dll
+E:\MySource\Works\Zyy\ZCompileCore2B\TKT.CLRTest\bin\Debug\Z语言系统.dll
+E:\MySource\Works\Zyy\ZCompileCore2B\TKT.CLRTest\bin\Debug\ZLangRT.pdb
+E:\MySource\Works\Zyy\ZCompileCore2B\TKT.CLRTest\bin\Debug\Z语言系统.pdb
+E:\MySource\Works\Zyy\ZCompileCore2B\TKT.CLRTest\obj\Debug\TKT.CLRTest.csprojResolveAssemblyReference.cache
+E:\MySource\Works\Zyy\ZCompileCore2B\TKT.CLRTest\obj\Debug\TKT.CLRTest.exe
+E:\MySource\Works\Zyy\ZCompileCore2B\TKT.CLRTest\obj\Debug\TKT.CLRTest.pdb
+E:\MySource\Works\Zyy\ZCompileCore2C\TKT.CLRTest\obj\Debug\TKT.CLRTest.exe
+E:\MySource\Works\Zyy\ZCompileCore2C\TKT.CLRTest\obj\Debug\TKT.CLRTest.pdb
+E:\MySource\Works\Zyy\ZCompileCore2C\TKT.CLRTest\bin\Debug\TKT.CLRTest.exe
+E:\MySource\Works\Zyy\ZCompileCore2C\TKT.CLRTest\bin\Debug\TKT.CLRTest.pdb
+E:\MySource\Works\Zyy\ZCompileCore2C\TKT.CLRTest\bin\Debug\ZLangRT.dll
+E:\MySource\Works\Zyy\ZCompileCore2C\TKT.CLRTest\bin\Debug\Z语言系统.dll
+E:\MySource\Works\Zyy\ZCompileCore2C\TKT.CLRTest\bin\Debug\ZLangRT.pdb
+E:\MySource\Works\Zyy\ZCompileCore2C\TKT.CLRTest\bin\Debug\Z语言系统.pdb
+E:\MySource\Works\Zyy\ZCompileCore2C\TKT.CLRTest\obj\Debug\TKT.CLRTest.csprojResolveAssemblyReference.cache
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2C\TKT.CLRTest\bin\Debug\TKT.CLRTest.exe
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2C\TKT.CLRTest\bin\Debug\TKT.CLRTest.pdb
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2C\TKT.CLRTest\bin\Debug\ZLangRT.dll
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2C\TKT.CLRTest\bin\Debug\Z语言系统.dll
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2C\TKT.CLRTest\bin\Debug\ZLangRT.pdb
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2C\TKT.CLRTest\bin\Debug\Z语言系统.pdb
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2C\TKT.CLRTest\obj\Debug\TKT.CLRTest.csprojResolveAssemblyReference.cache
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2C\TKT.CLRTest\obj\Debug\TKT.CLRTest.exe
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2C\TKT.CLRTest\obj\Debug\TKT.CLRTest.pdb
+E:\WorkProjects\Z\Z2\ZCompileCore2\TKT.CLRTest\bin\Debug\TKT.CLRTest.exe
+E:\WorkProjects\Z\Z2\ZCompileCore2\TKT.CLRTest\bin\Debug\TKT.CLRTest.pdb
+E:\WorkProjects\Z\Z2\ZCompileCore2\TKT.CLRTest\bin\Debug\ZLangRT.dll
+E:\WorkProjects\Z\Z2\ZCompileCore2\TKT.CLRTest\bin\Debug\Z语言系统.dll
+E:\WorkProjects\Z\Z2\ZCompileCore2\TKT.CLRTest\bin\Debug\ZLangRT.pdb
+E:\WorkProjects\Z\Z2\ZCompileCore2\TKT.CLRTest\bin\Debug\Z语言系统.pdb
+E:\WorkProjects\Z\Z2\ZCompileCore2\TKT.CLRTest\obj\Debug\TKT.CLRTest.csprojResolveAssemblyReference.cache
+E:\WorkProjects\Z\Z2\ZCompileCore2\TKT.CLRTest\obj\Debug\TKT.CLRTest.exe
+E:\WorkProjects\Z\Z2\ZCompileCore2\TKT.CLRTest\obj\Debug\TKT.CLRTest.pdb
+E:\MySource\Works\Zyy\Z2\ZCompileCore2\TKT.CLRTest\bin\Debug\TKT.CLRTest.exe
+E:\MySource\Works\Zyy\Z2\ZCompileCore2\TKT.CLRTest\bin\Debug\TKT.CLRTest.pdb
+E:\MySource\Works\Zyy\Z2\ZCompileCore2\TKT.CLRTest\bin\Debug\ZLangRT.dll
+E:\MySource\Works\Zyy\Z2\ZCompileCore2\TKT.CLRTest\bin\Debug\Z语言系统.dll
+E:\MySource\Works\Zyy\Z2\ZCompileCore2\TKT.CLRTest\bin\Debug\ZLangRT.pdb
+E:\MySource\Works\Zyy\Z2\ZCompileCore2\TKT.CLRTest\bin\Debug\Z语言系统.pdb
+E:\MySource\Works\Zyy\Z2\ZCompileCore2\TKT.CLRTest\obj\Debug\TKT.CLRTest.csprojResolveAssemblyReference.cache
+E:\MySource\Works\Zyy\Z2\ZCompileCore2\TKT.CLRTest\obj\Debug\TKT.CLRTest.exe
+E:\MySource\Works\Zyy\Z2\ZCompileCore2\TKT.CLRTest\obj\Debug\TKT.CLRTest.pdb
+E:\MySource\Zyy\Z2\ZCompileCore2\TKT.CLRTest\bin\Debug\TKT.CLRTest.exe
+E:\MySource\Zyy\Z2\ZCompileCore2\TKT.CLRTest\bin\Debug\TKT.CLRTest.pdb
+E:\MySource\Zyy\Z2\ZCompileCore2\TKT.CLRTest\bin\Debug\ZLangRT.dll
+E:\MySource\Zyy\Z2\ZCompileCore2\TKT.CLRTest\bin\Debug\Z语言系统.dll
+E:\MySource\Zyy\Z2\ZCompileCore2\TKT.CLRTest\bin\Debug\ZLangRT.pdb
+E:\MySource\Zyy\Z2\ZCompileCore2\TKT.CLRTest\bin\Debug\Z语言系统.pdb
+E:\MySource\Zyy\Z2\ZCompileCore2\TKT.CLRTest\obj\Debug\TKT.CLRTest.csprojResolveAssemblyReference.cache
+E:\MySource\Zyy\Z2\ZCompileCore2\TKT.CLRTest\obj\Debug\TKT.CLRTest.exe
+E:\MySource\Zyy\Z2\ZCompileCore2\TKT.CLRTest\obj\Debug\TKT.CLRTest.pdb

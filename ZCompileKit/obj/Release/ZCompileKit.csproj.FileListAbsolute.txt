@@ -1,0 +1,4 @@
+E:\ProgProj\Z\Z2\ZCompileCore2\ZCompileKit\bin\Release\ZCompileKit.dll
+E:\ProgProj\Z\Z2\ZCompileCore2\ZCompileKit\bin\Release\ZCompileKit.pdb
+E:\ProgProj\Z\Z2\ZCompileCore2\ZCompileKit\obj\Release\ZCompileKit.dll
+E:\ProgProj\Z\Z2\ZCompileCore2\ZCompileKit\obj\Release\ZCompileKit.pdb

@@ -1,0 +1,94 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Reflection;
+using System.Reflection.Emit;
+using System.Text;
+using ZCompileCore.Contexts;
+using ZCompileCore.Symbols;
+
+namespace ZCompileCore.AST
+{
+    public class ExpClosure:Exp
+    {
+        public override Exp[] GetSubExps()
+        {
+            return BodyExp.GetSubExps();
+        }
+        //public SymbolDefField OutClassField
+        //{
+        //    get { return this.NestedClassContext.OutClassField; }
+        //}
+
+        //public Dictionary<string, SymbolDefField> Fields { get; private set; }
+        public Dictionary<string, ExpVar> FieldExps { get; set; }
+
+        public Exp BodyExp { get; set; }
+        public Type FnRetType { get; set; }
+
+        public ContextClass NestedClassContext { get; set; }
+
+        //public MethodContext NestedMethodContext { get; set; }
+        //AnalyStmtContext nestedStmtContext { get; set; }
+        //AnalyExpContext nestedExpContext { get; set; }
+        SymbolLocalVar retSymbol;
+        Type NestedType { get; set; }
+        public ConstructorBuilder NewBuilder { get; private set; }
+
+        public override Exp Analy( )
+        {
+            //createContext(this.AnalyExpContext);
+            //var symbols = this.AnalyExpContext.Symbols;
+            //analyOutClassField(this.AnalyExpContext, false, context.ClassContext.ClassSymbol.ClassBuilder);
+            analyFields(false);
+            //if (RetType != typeof(void))
+            //{
+            //    retSymbol = new SymbolVar("结果", RetType);
+            //    //retSymbol.IsAssigned = true;
+            //    //retSymbol.LoacalVarIndex = this.NestedMethodContext.CreateLocalVarIndex("结果");
+            //    //symbols.AddSafe(retSymbol);
+            //}
+            //BodyExp = BodyExp.Analy(context);
+            //if (FnRetType != typeof(Action))
+            //{
+            //    if (RetType != typeof(bool))
+            //    {
+            //        error(BodyExp.Postion, "返回结果的类型不匹配");
+            //        return null;
+            //    }
+            //}
+            return this;
+        }
+
+        void analyFields(bool isStatic)
+        {
+            //Fields = new Dictionary<string, SymbolDefField>();
+            //var symbols = NestedClassContext.Symbols;
+            //var names = FieldExps.Keys.ToList();
+            //for (int i = 0; i < names.Count; i++)
+            //{
+            //    var name = names[i];
+            //    VarExp exp = FieldExps[name];
+            //    SymbolVar symbol = exp.VarSymbol as SymbolVar;
+
+            //    //if (symbol is InstanceSymbol)
+            //    //{
+            //    var propertyType = symbol.DimType;
+            //    FieldBuilder field = NestedClassContext.EmitContext.CurrentTypeBuilder.DefineField("_" + name, propertyType, FieldAttributes.Public);
+            //    SymbolDefField fieldSymbol = new SymbolDefField(name, propertyType, isStatic);
+            //    fieldSymbol.SetField(field);
+            //    symbols.AddSafe(fieldSymbol);
+
+            //    //Fields.Remove(name);
+            //    Fields.Add(name, fieldSymbol);
+            //    exp.IsNestedField = true;
+            //    SymbolDefField fs = new SymbolDefField(name, field.FieldType, field.IsStatic);
+            //    fs.SetField(field);
+            //    exp.VarSymbol = fs;
+            //    //nestedSymbolInfos.Add(fieldSymbol);
+            //    //}
+            //}
+        }
+        
+    }
+}

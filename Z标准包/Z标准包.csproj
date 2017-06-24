@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D52C5BD7-DD7D-459A-9953-8B3972FDF2B1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Z标准包</RootNamespace>
+    <AssemblyName>Z标准包</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Z操作系统\KeyboardHook.cs" />
+    <Compile Include="Z操作系统\MouseHook.cs" />
+    <Compile Include="Z操作系统\User32.cs" />
+    <Compile Include="Z操作系统\Win32Api.cs" />
+    <Compile Include="Z操作系统\定时器.cs" />
+    <Compile Include="Z操作系统\平台标识体.cs" />
+    <Compile Include="Z操作系统\进程操作.cs" />
+    <Compile Include="Z操作系统\进程.cs" />
+    <Compile Include="Z操作系统\进程信息.cs" />
+    <Compile Include="Z操作系统\进程辅助.cs" />
+    <Compile Include="Z文件系统\文件系统操作.cs" />
+    <Compile Include="Z文件系统\文件系统节点.cs" />
+    <Compile Include="Z文件系统\文件.cs" />
+    <Compile Include="Z文件系统\文件夹.cs" />
+    <Compile Include="Z桌面控件\光标.cs" />
+    <Compile Include="Z桌面控件\尺寸.cs" />
+    <Compile Include="Z桌面控件\控件管理器.cs" />
+    <Compile Include="Z桌面控件\桌面定时器.cs" />
+    <Compile Include="Z桌面控件\窗体.cs" />
+    <Compile Include="Z桌面控件\键盘参数.cs" />
+    <Compile Include="Z桌面控件\键盘按键.cs" />
+    <Compile Include="Z桌面控件\鼠标参数.cs" />
+    <Compile Include="Z桌面控件\鼠标按键.cs" />
+    <Compile Include="Z绘图\位图.cs" />
+    <Compile Include="Z绘图\图片.cs" />
+    <Compile Include="Z绘图\图片辅助.cs" />
+    <Compile Include="Z绘图\字体.cs" />
+    <Compile Include="Z绘图\形状\圆.cs" />
+    <Compile Include="Z绘图\形状\椭圆.cs" />
+    <Compile Include="Z绘图\形状\点.cs" />
+    <Compile Include="Z绘图\形状\点辅助.cs" />
+    <Compile Include="Z绘图\形状\矩形.cs" />
+    <Compile Include="Z绘图\形状\线段.cs" />
+    <Compile Include="Z绘图\文本块.cs" />
+    <Compile Include="Z绘图\画笔.cs" />
+    <Compile Include="Z绘图\笔刷.cs" />
+    <Compile Include="Z绘图\笔刷库.cs" />
+    <Compile Include="Z绘图\线性渐变笔刷.cs" />
+    <Compile Include="Z绘图\绘图器.cs" />
+    <Compile Include="Z绘图\绘图辅助.cs" />
+    <Compile Include="Z绘图\颜色.cs" />
+    <Compile Include="Z网络\HttpHelper.cs" />
+    <Compile Include="Z网络\PictureDownUtil.cs" />
+    <Compile Include="Z网络\SocketHttpRequest.cs" />
+    <Compile Include="Z网络\网址.cs" />
+    <Compile Include="Z网络\网络操作.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ZLangRT\ZLangRT.csproj">
+      <Project>{bdbcdf64-058a-4f6f-a0d9-f74b4f564dd2}</Project>
+      <Name>ZLangRT</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Z语言系统\Z语言系统.csproj">
+      <Project>{c868dd87-84b4-43f0-a984-6a8dd701c38d}</Project>
+      <Name>Z语言系统</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Z绘图\动画窗体.cs.TXT">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Z绘图\形状\圆弧.cs.TXT" />
+    <Content Include="Z绘图\绘图窗体.cs.TXT">
+      <SubType>Form</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

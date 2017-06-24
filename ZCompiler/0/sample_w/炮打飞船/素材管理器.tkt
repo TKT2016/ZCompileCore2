@@ -1,0 +1,16 @@
+﻿使用包:月光游戏开发框架；
+简略使用:二维向量,颜色,精灵效果;
+属于:唯一类型;
+名称:素材管理器
+
+属性:
+    背景纹理:二维纹理；//Texture2D 背景纹理;
+    大炮纹理:二维纹理;// Texture2D 大炮纹理;
+    炮弹纹理:二维纹理;// Texture2D 炮弹纹理;
+    敌船纹理:二维纹理;// Texture2D 敌船纹理;
+
+过程:用(资源管理器:Z)加载
+     背景纹理 =(Z)根据("Textures/background")加载为(二维纹理) ;//背景纹理 = Z.Load<Texture2D>("Textures/background");
+     大炮纹理 =(Z)根据("Textures/cannon")加载为(二维纹理);//大炮纹理 = Z.Load<Texture2D>("Textures/cannon");
+     炮弹纹理 =(Z)根据("Textures/cannonball")加载为(二维纹理);//炮弹纹理 = Z.Load<Texture2D>("Textures/cannonball");
+     敌船纹理 =(Z)根据("Textures/enemy")加载为(二维纹理);//敌船纹理 = Z.Load<Texture2D>("Textures/enemy");

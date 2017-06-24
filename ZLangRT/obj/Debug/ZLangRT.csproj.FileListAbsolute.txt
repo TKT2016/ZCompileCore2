@@ -1,0 +1,70 @@
+E:\WorkProjects\Z\Z 0.3\ZCompileCore 0.3\ZLangRT\bin\Debug\ZLangRT.dll
+E:\WorkProjects\Z\Z 0.3\ZCompileCore 0.3\ZLangRT\bin\Debug\ZLangRT.pdb
+E:\WorkProjects\Z\Z 0.3\ZCompileCore 0.3\ZLangRT\obj\Debug\ZLangRT.csprojResolveAssemblyReference.cache
+E:\WorkProjects\Z\Z 0.3\ZCompileCore 0.3\ZLangRT\obj\Debug\ZLangRT.dll
+E:\WorkProjects\Z\Z 0.3\ZCompileCore 0.3\ZLangRT\obj\Debug\ZLangRT.pdb
+E:\WorkProjects\Z\Z 0.4\ZCompileCore2\ZLangRT\obj\Debug\ZLangRT.csprojResolveAssemblyReference.cache
+E:\WorkProjects\Z\Z 0.4\ZCompileCore2\ZLangRT\obj\Debug\ZLangRT.dll
+E:\WorkProjects\Z\Z 0.4\ZCompileCore2\ZLangRT\bin\Debug\ZLangRT.dll
+E:\WorkProjects\Z\Z 0.4\ZCompileCore2\ZLangRT\bin\Debug\ZLangRT.pdb
+E:\WorkProjects\Z\Z 0.4\ZCompileCore2\ZLangRT\obj\Debug\ZLangRT.pdb
+E:\works\Zyy\Z\Z 0.4\ZCompileCore2\ZLangRT\bin\Debug\ZLangRT.dll
+E:\works\Zyy\Z\Z 0.4\ZCompileCore2\ZLangRT\bin\Debug\ZLangRT.pdb
+E:\works\Zyy\Z\Z 0.4\ZCompileCore2\ZLangRT\obj\Debug\ZLangRT.dll
+E:\works\Zyy\Z\Z 0.4\ZCompileCore2\ZLangRT\obj\Debug\ZLangRT.pdb
+E:\works\Zyy\Z\Z 0.4\ZCompileCore2\ZLangRT\obj\Debug\ZLangRT.csprojResolveAssemblyReference.cache
+E:\MyDocuments\Works\Zyy\ZCompileCore2\ZLangRT\bin\Debug\ZLangRT.dll
+E:\MyDocuments\Works\Zyy\ZCompileCore2\ZLangRT\bin\Debug\ZLangRT.pdb
+E:\MyDocuments\Works\Zyy\ZCompileCore2\ZLangRT\obj\Debug\ZLangRT.csprojResolveAssemblyReference.cache
+E:\MyDocuments\Works\Zyy\ZCompileCore2\ZLangRT\obj\Debug\ZLangRT.dll
+E:\MyDocuments\Works\Zyy\ZCompileCore2\ZLangRT\obj\Debug\ZLangRT.pdb
+E:\MyDocuments\MyWares\Works\Zyy\ZCompileCore2A\ZLangRT\obj\Debug\ZLangRT.csprojResolveAssemblyReference.cache
+E:\MyDocuments\MyWares\Works\Zyy\ZCompileCore2A\ZLangRT\obj\Debug\ZLangRT.dll
+E:\MyDocuments\MyWares\Works\Zyy\ZCompileCore2A\ZLangRT\obj\Debug\ZLangRT.pdb
+E:\MyDocuments\MyWares\Works\Zyy\ZCompileCore2A\ZLangRT\bin\Debug\ZLangRT.dll
+E:\MyDocuments\MyWares\Works\Zyy\ZCompileCore2A\ZLangRT\bin\Debug\ZLangRT.pdb
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2A\ZLangRT\bin\Debug\ZLangRT.dll
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2A\ZLangRT\bin\Debug\ZLangRT.pdb
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2A\ZLangRT\obj\Debug\ZLangRT.csprojResolveAssemblyReference.cache
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2A\ZLangRT\obj\Debug\ZLangRT.dll
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2A\ZLangRT\obj\Debug\ZLangRT.pdb
+E:\MyDocuments\MyWares\Works\Zyy\ZCompileCore2B\ZLangRT\bin\Debug\ZLangRT.dll
+E:\MyDocuments\MyWares\Works\Zyy\ZCompileCore2B\ZLangRT\bin\Debug\ZLangRT.pdb
+E:\MyDocuments\MyWares\Works\Zyy\ZCompileCore2B\ZLangRT\obj\Debug\ZLangRT.csprojResolveAssemblyReference.cache
+E:\MyDocuments\MyWares\Works\Zyy\ZCompileCore2B\ZLangRT\obj\Debug\ZLangRT.dll
+E:\MyDocuments\MyWares\Works\Zyy\ZCompileCore2B\ZLangRT\obj\Debug\ZLangRT.pdb
+E:\MySource\Works\Zyy\ZCompileCore2B\ZLangRT\bin\Debug\ZLangRT.dll
+E:\MySource\Works\Zyy\ZCompileCore2B\ZLangRT\bin\Debug\ZLangRT.pdb
+E:\MySource\Works\Zyy\ZCompileCore2B\ZLangRT\obj\Debug\ZLangRT.csprojResolveAssemblyReference.cache
+E:\MySource\Works\Zyy\ZCompileCore2B\ZLangRT\obj\Debug\ZLangRT.dll
+E:\MySource\Works\Zyy\ZCompileCore2B\ZLangRT\obj\Debug\ZLangRT.pdb
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2B\ZLangRT\bin\Debug\ZLangRT.dll
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2B\ZLangRT\bin\Debug\ZLangRT.pdb
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2B\ZLangRT\obj\Debug\ZLangRT.csprojResolveAssemblyReference.cache
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2B\ZLangRT\obj\Debug\ZLangRT.dll
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2B\ZLangRT\obj\Debug\ZLangRT.pdb
+E:\MySource\Works\Zyy\ZCompileCore2C\ZLangRT\bin\Debug\ZLangRT.dll
+E:\MySource\Works\Zyy\ZCompileCore2C\ZLangRT\bin\Debug\ZLangRT.pdb
+E:\MySource\Works\Zyy\ZCompileCore2C\ZLangRT\obj\Debug\ZLangRT.csprojResolveAssemblyReference.cache
+E:\MySource\Works\Zyy\ZCompileCore2C\ZLangRT\obj\Debug\ZLangRT.dll
+E:\MySource\Works\Zyy\ZCompileCore2C\ZLangRT\obj\Debug\ZLangRT.pdb
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2C\ZLangRT\bin\Debug\ZLangRT.dll
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2C\ZLangRT\bin\Debug\ZLangRT.pdb
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2C\ZLangRT\obj\Debug\ZLangRT.csprojResolveAssemblyReference.cache
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2C\ZLangRT\obj\Debug\ZLangRT.dll
+E:\WorkProjects\Z\Z 0.4A\ZCompileCore2C\ZLangRT\obj\Debug\ZLangRT.pdb
+E:\MySource\Works\Zyy\Z2\ZCompileCore2\ZLangRT\bin\Debug\ZLangRT.dll
+E:\MySource\Works\Zyy\Z2\ZCompileCore2\ZLangRT\bin\Debug\ZLangRT.pdb
+E:\MySource\Works\Zyy\Z2\ZCompileCore2\ZLangRT\obj\Debug\ZLangRT.csprojResolveAssemblyReference.cache
+E:\MySource\Works\Zyy\Z2\ZCompileCore2\ZLangRT\obj\Debug\ZLangRT.dll
+E:\MySource\Works\Zyy\Z2\ZCompileCore2\ZLangRT\obj\Debug\ZLangRT.pdb
+E:\WorkProjects\Z\Z2\ZCompileCore2\ZLangRT\bin\Debug\ZLangRT.dll
+E:\WorkProjects\Z\Z2\ZCompileCore2\ZLangRT\bin\Debug\ZLangRT.pdb
+E:\WorkProjects\Z\Z2\ZCompileCore2\ZLangRT\obj\Debug\ZLangRT.csprojResolveAssemblyReference.cache
+E:\WorkProjects\Z\Z2\ZCompileCore2\ZLangRT\obj\Debug\ZLangRT.dll
+E:\WorkProjects\Z\Z2\ZCompileCore2\ZLangRT\obj\Debug\ZLangRT.pdb
+E:\ProgProj\Z\Z2\ZCompileCore2\ZLangRT\bin\Debug\ZLangRT.dll
+E:\ProgProj\Z\Z2\ZCompileCore2\ZLangRT\bin\Debug\ZLangRT.pdb
+E:\ProgProj\Z\Z2\ZCompileCore2\ZLangRT\obj\Debug\ZLangRT.csprojResolveAssemblyReference.cache
+E:\ProgProj\Z\Z2\ZCompileCore2\ZLangRT\obj\Debug\ZLangRT.dll
+E:\ProgProj\Z\Z2\ZCompileCore2\ZLangRT\obj\Debug\ZLangRT.pdb

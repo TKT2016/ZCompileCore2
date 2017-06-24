@@ -1,0 +1,100 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using ZCompileCore.Lex;
+using ZCompileCore.Parser;
+using ZCompileCore.Parsers;
+using ZCompileDesc.Words;
+
+namespace ZCompileCore.AST
+{
+    public class ExpRawNormal : ExpRaw
+    {
+        List<object> Raws { get; set; }
+
+        public ExpRawNormal()
+        {
+            Raws = new List<object>();
+        }
+
+        public void Add(Token token)
+        {
+            Raws.Add(token);
+        }
+
+        public void Add(ExpRawBracket bracketExp)
+        {
+            Raws.Add(bracketExp);
+        }
+
+        public override Exp Parse()
+        {
+            var wordTree = this.ExpContext.ExpWordDictionary;
+            WordSegmenter segmenter = new WordSegmenter(wordTree);
+            List<object> newRaws = new List<object>();
+            //List<Token> tokens = new List<Token>();
+            foreach (var item in Raws)
+            {
+                if (item is ExpRawBracket)
+                {
+                    Exp exp2 = (item as ExpRawBracket).Parse();
+                    if(exp2!=null)
+                    {
+                        newRaws.Add(exp2);
+                    }
+                }
+                else if (item is Token)
+                {
+                    Token tok = item as Token;
+                    if (tok.Kind == TokenKind.Ident)
+                    {
+                        Token[] newTokens = segmenter.Split(tok);
+                        newRaws.AddRange(newTokens);
+                    }
+                    else if (tok.Kind != TokenKind.NewLine)
+                    {
+                        newRaws.Add(tok);
+                    }
+                }
+                else
+                {
+                    throw new CompileException();
+                }
+                //if (tok.Kind == TokenKind.Ident)
+                //{
+                //    Token[] newTokens = segmenter.Split(tok);
+                //    tokens.AddRange(newTokens);
+                //}
+                //else if (tok.Kind != TokenKind.NewLine)
+                //{
+                //    tokens.Add(tok);
+                //}
+            }
+            ExpParser parser = new ExpParser();
+            Exp exp = parser.Parse(tokens,this.FileContext);
+            //exp.ParentExp = this.ParentExp;
+            exp.SetContext(this.ExpContext);
+            return exp;
+        }
+
+        #region 覆盖方法
+        //public override CodePostion Postion
+        //{
+        //    get { return RawTokens[0].Postion; }
+        //}
+
+
+        public override Exp[] GetSubExps()
+        {
+            return new Exp[] { };
+        }
+		
+
+        public override string ToString()
+        {
+            return string.Join("", RawTokens.Select(p=>p.GetText()));
+        }
+        #endregion
+    }
+}

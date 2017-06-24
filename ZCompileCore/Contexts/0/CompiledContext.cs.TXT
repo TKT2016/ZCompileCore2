@@ -1,0 +1,19 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ZCompileCore.Contexts
+{
+    public class CompiledContext
+    {
+        //public WordTree DefEnumWordTree { get; private set; }
+        //public WordTree DefPreDimWordTree { get; private set; }
+
+        public CompiledContext()
+        {
+            //DefEnumWordTree = new WordTree();
+            //DefPreDimWordTree = new WordTree();
+        }
+    }
+}

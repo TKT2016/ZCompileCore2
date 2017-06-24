@@ -1,0 +1,14 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using ZyyDesc.Descriptions;
+
+namespace ZCompileCore.Symbols
+{
+    public class SymbolProc : SymbolBase
+    {
+        public ZType RetType { get; set; }
+        public int EachIndex { get; set; }
+    }
+}

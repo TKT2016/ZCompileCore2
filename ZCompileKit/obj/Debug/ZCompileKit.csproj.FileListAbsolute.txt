@@ -1,0 +1,10 @@
+E:\MySource\Works\Zyy\Z2\ZCompileCore2\ZCompileKit\bin\Debug\ZCompileKit.dll
+E:\MySource\Works\Zyy\Z2\ZCompileCore2\ZCompileKit\bin\Debug\ZCompileKit.pdb
+E:\MySource\Works\Zyy\Z2\ZCompileCore2\ZCompileKit\obj\Debug\ZCompileKit.dll
+E:\MySource\Works\Zyy\Z2\ZCompileCore2\ZCompileKit\obj\Debug\ZCompileKit.pdb
+E:\MySource\Works\Zyy\Z2\ZCompileCore2\ZCompileKit\obj\Debug\ZCompileKit.csprojResolveAssemblyReference.cache
+E:\ProgProj\Z\Z2\ZCompileCore2\ZCompileKit\bin\Debug\ZCompileKit.dll
+E:\ProgProj\Z\Z2\ZCompileCore2\ZCompileKit\bin\Debug\ZCompileKit.pdb
+E:\ProgProj\Z\Z2\ZCompileCore2\ZCompileKit\obj\Debug\ZCompileKit.csprojResolveAssemblyReference.cache
+E:\ProgProj\Z\Z2\ZCompileCore2\ZCompileKit\obj\Debug\ZCompileKit.dll
+E:\ProgProj\Z\Z2\ZCompileCore2\ZCompileKit\obj\Debug\ZCompileKit.pdb

@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E67A9E30-33BF-4396-8EAD-2D100B3DB84A}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ZCompiler</RootNamespace>
+    <AssemblyName>ZCompiler</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CompileCmdModel.cs" />
+    <Compile Include="CompileProgram.cs" />
+    <Compile Include="Const.cs" />
+    <Compile Include="ProjectCompiler.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="FileCompiler.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="0\sample2\test.zyy">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="0\sample2\物体.zyy" />
+    <None Include="0\sample\test.zyy">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="0\sample\你好.zyy">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="0\sample\列表例子.zyy">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="0\sample\对应表例子.zyy">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="0\sample\循环语句例子.zyy">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="0\sample\教程例子\异常例子.zyy">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="0\sample\教程例子\循环语句例子.zyy">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="0\sample\教程例子\打印你好.zyy">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="0\sample\教程例子\条件语句例子.zyy">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="0\sample\教程例子\游戏状态.zyy">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="0\sample\教程例子\过程例子.zyy">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="0\sample\测试如果.zyy">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="0\sample\测试每一个.zyy">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="0\sample_w\testw1.zyy">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="0\sample_w\打飞机\Project.tktxm" />
+    <None Include="0\sample_w\打飞机\resource\font.fnt" />
+    <None Include="0\sample_w\打飞机\主程序.tkt" />
+    <None Include="0\sample_w\打飞机\子弹.tkt" />
+    <None Include="0\sample_w\打飞机\子弹管理器.tkt" />
+    <None Include="0\sample_w\打飞机\子弹类型.tkt" />
+    <None Include="0\sample_w\打飞机\战场.tkt" />
+    <None Include="0\sample_w\打飞机\战场参数.tkt" />
+    <None Include="0\sample_w\打飞机\敌人.tkt" />
+    <None Include="0\sample_w\打飞机\敌机管理器.tkt" />
+    <None Include="0\sample_w\打飞机\游戏状态.tkt" />
+    <None Include="0\sample_w\打飞机\物体.tkt" />
+    <None Include="0\sample_w\打飞机\飞机.tkt" />
+    <None Include="0\sample_w\炮打飞船\Project.tktxm" />
+    <None Include="0\sample_w\炮打飞船\主程序.tkt" />
+    <None Include="0\sample_w\炮打飞船\大炮.tkt" />
+    <None Include="0\sample_w\炮打飞船\打炮游戏.tkt" />
+    <None Include="0\sample_w\炮打飞船\敌船.tkt" />
+    <None Include="0\sample_w\炮打飞船\游戏参数.tkt" />
+    <None Include="0\sample_w\炮打飞船\炮弹.tkt" />
+    <None Include="0\sample_w\炮打飞船\碰撞辅助.tkt" />
+    <None Include="0\sample_w\炮打飞船\积分器.tkt" />
+    <None Include="0\sample_w\炮打飞船\精灵.tkt" />
+    <None Include="0\sample_w\炮打飞船\素材管理器.tkt" />
+    <None Include="0\sample_w\炮打飞船\输入管理器.tkt" />
+    <None Include="sample2c\sample1.zyy">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="sample2c\sample2.zyy">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="sample2c\test.zyy">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="sample2c\test2.zyy">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="sample2c\test3.zyy">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="sample2c\test4.zyy">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="sample2c\test6.zyy">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="sample2c\TestLanmbda1.zyy">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="sample2c\test异常.zyy">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="sample2c\打飞机ALL.zyy" />
+    <None Include="sample\打飞机\Project.zproj" />
+    <None Include="sample\打飞机\resource\font.fnt" />
+    <None Include="sample\打飞机\主程序.zyy" />
+    <None Include="sample\打飞机\子弹.zyy" />
+    <None Include="sample\打飞机\子弹管理器.zyy" />
+    <None Include="sample\打飞机\子弹类型.zyy" />
+    <None Include="sample\打飞机\战场.zyy" />
+    <None Include="sample\打飞机\敌人.zyy" />
+    <None Include="sample\打飞机\敌机管理器.zyy" />
+    <None Include="sample\打飞机\游戏状态.zyy" />
+    <None Include="sample\打飞机\游戏配置参数.zyy" />
+    <None Include="sample\打飞机\物体.zyy" />
+    <None Include="sample\打飞机\飞机.zyy" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="0\sample_w\打飞机\resource\bg_01.jpg" />
+    <Content Include="0\sample_w\打飞机\resource\bg_02.jpg" />
+    <Content Include="0\sample_w\打飞机\resource\BOMB3.WAV" />
+    <Content Include="0\sample_w\打飞机\resource\BOMB5.WAV" />
+    <Content Include="0\sample_w\打飞机\resource\DiJi.png" />
+    <Content Include="0\sample_w\打飞机\resource\explosion.mp3" />
+    <Content Include="0\sample_w\打飞机\resource\explosion.wav" />
+    <Content Include="0\sample_w\打飞机\resource\font_0.png" />
+    <Content Include="0\sample_w\打飞机\resource\grey_bullet.png" />
+    <Content Include="0\sample_w\打飞机\resource\icon36x36.png" />
+    <Content Include="0\sample_w\打飞机\resource\icon48x48.png" />
+    <Content Include="0\sample_w\打飞机\resource\icon72x72.png" />
+    <Content Include="0\sample_w\打飞机\resource\loading.gif" />
+    <Content Include="0\sample_w\打飞机\resource\plane.png" />
+    <Content Include="0\sample_w\打飞机\resource\plane.xml" />
+    <Content Include="0\sample_w\打飞机\resource\red_bullet.png" />
+    <Content Include="0\sample_w\打飞机\resource\shoot.mp3" />
+    <Content Include="0\sample_w\打飞机\resource\shoot.wav" />
+    <Content Include="0\sample_w\打飞机\_说明.txt" />
+    <Content Include="0\sample_w\炮打飞船\Content\Textures\background.png" />
+    <Content Include="0\sample_w\炮打飞船\Content\Textures\cannon.png" />
+    <Content Include="0\sample_w\炮打飞船\Content\Textures\cannonball.png" />
+    <Content Include="0\sample_w\炮打飞船\Content\Textures\enemy.png" />
+    <Content Include="0\sample_w\炮打飞船\Icon.ico" />
+    <Content Include="sample\打飞机\resource\bg_01.jpg" />
+    <Content Include="sample\打飞机\resource\bg_02.jpg" />
+    <Content Include="sample\打飞机\resource\BOMB3.WAV" />
+    <Content Include="sample\打飞机\resource\BOMB5.WAV" />
+    <Content Include="sample\打飞机\resource\DiJi.png" />
+    <Content Include="sample\打飞机\resource\explosion.mp3" />
+    <Content Include="sample\打飞机\resource\explosion.wav" />
+    <Content Include="sample\打飞机\resource\font_0.png" />
+    <Content Include="sample\打飞机\resource\grey_bullet.png" />
+    <Content Include="sample\打飞机\resource\icon36x36.png" />
+    <Content Include="sample\打飞机\resource\icon48x48.png" />
+    <Content Include="sample\打飞机\resource\icon72x72.png" />
+    <Content Include="sample\打飞机\resource\loading.gif" />
+    <Content Include="sample\打飞机\resource\plane.png" />
+    <Content Include="sample\打飞机\resource\plane.xml" />
+    <Content Include="sample\打飞机\resource\red_bullet.png" />
+    <Content Include="sample\打飞机\resource\shoot.mp3" />
+    <Content Include="sample\打飞机\resource\shoot.wav" />
+    <Content Include="sample\打飞机\_说明.txt" />
+    <Content Include="项目说明.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ZCompileCore\ZCompileCore.csproj">
+      <Project>{47777972-9e15-4ab2-89dc-a6c988864847}</Project>
+      <Name>ZCompileCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ZCompileDesc\ZCompileDesc.csproj">
+      <Project>{d6ed0d5e-d787-4aa6-b814-13ecd88ca14a}</Project>
+      <Name>ZCompileDesc</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ZCompileKit\ZCompileKit.csproj">
+      <Project>{0744fe01-7ebf-42ca-ac05-869ec1d24f6c}</Project>
+      <Name>ZCompileKit</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ZLangRT\ZLangRT.csproj">
+      <Project>{bdbcdf64-058a-4f6f-a0d9-f74b4f564dd2}</Project>
+      <Name>ZLangRT</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Z标准包\Z标准包.csproj">
+      <Project>{d52c5bd7-dd7d-459a-9953-8b3972fdf2b1}</Project>
+      <Name>Z标准包</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Z语言系统\Z语言系统.csproj">
+      <Project>{c868dd87-84b4-43f0-a984-6a8dd701c38d}</Project>
+      <Name>Z语言系统</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

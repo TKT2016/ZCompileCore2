@@ -1,0 +1,14 @@
+E:\WorkProjects\Z\Z 0.3\ZCompileCore 0.3\Z语言系统\bin\Release\Z语言系统.dll
+E:\WorkProjects\Z\Z 0.3\ZCompileCore 0.3\Z语言系统\bin\Release\Z语言系统.pdb
+E:\WorkProjects\Z\Z 0.3\ZCompileCore 0.3\Z语言系统\bin\Release\ZLangRT.dll
+E:\WorkProjects\Z\Z 0.3\ZCompileCore 0.3\Z语言系统\bin\Release\ZLangRT.pdb
+E:\WorkProjects\Z\Z 0.3\ZCompileCore 0.3\Z语言系统\obj\Release\Z语言系统.csprojResolveAssemblyReference.cache
+E:\WorkProjects\Z\Z 0.3\ZCompileCore 0.3\Z语言系统\obj\Release\Z语言系统.dll
+E:\WorkProjects\Z\Z 0.3\ZCompileCore 0.3\Z语言系统\obj\Release\Z语言系统.pdb
+E:\ProgProj\Z\Z2\ZCompileCore2\Z语言系统\bin\Release\Z语言系统.dll
+E:\ProgProj\Z\Z2\ZCompileCore2\Z语言系统\bin\Release\Z语言系统.pdb
+E:\ProgProj\Z\Z2\ZCompileCore2\Z语言系统\bin\Release\ZLangRT.dll
+E:\ProgProj\Z\Z2\ZCompileCore2\Z语言系统\bin\Release\ZLangRT.pdb
+E:\ProgProj\Z\Z2\ZCompileCore2\Z语言系统\obj\Release\Z语言系统.csprojResolveAssemblyReference.cache
+E:\ProgProj\Z\Z2\ZCompileCore2\Z语言系统\obj\Release\Z语言系统.dll
+E:\ProgProj\Z\Z2\ZCompileCore2\Z语言系统\obj\Release\Z语言系统.pdb

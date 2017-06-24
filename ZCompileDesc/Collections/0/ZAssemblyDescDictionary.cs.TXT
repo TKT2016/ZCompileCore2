@@ -1,0 +1,34 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Reflection;
+using System.Text;
+using ZCompileDesc.Collections;
+using ZCompileDesc.Words;
+
+namespace ZCompileDesc.Descriptions
+{
+    public class ZAssemblyDescDictionary : Dictionary<Assembly, ZAssemblyDesc>, IWordDictionary
+    {
+        public ZPackageDesc SearchZPackageDesc(string packageName)
+        {
+            foreach(ZAssemblyDesc assemblyDesc in this.Values)
+            {
+                ZPackageDesc packageDesc = assemblyDesc.SearhcZPackageDesc(packageName);
+                if (packageDesc != null)
+                    return packageDesc;
+            }
+            return null;
+        }
+
+        public WordInfo SearchWord(string text)
+        {
+            return IWordDictionaryHelper.EnumerableSearchWord(text, this.Values);
+        }
+
+        public bool ContainsWord(string text)
+        {
+            return IWordDictionaryHelper.EnumerableContainsWord(text, this.Values);
+        }
+    }
+}

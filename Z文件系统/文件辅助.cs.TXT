@@ -1,0 +1,33 @@
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using ZLangRT.Attributes;
+
+namespace Z文件系统
+{
+    [ZStatic]
+    public class 文件辅助
+    {
+        //public static bool 存在文件(string 文件名称)
+        //{
+        //    return File.Exists(文件名称);
+        //}
+
+        [ZCode("创建(FileInfo:WJ)")]
+        public static void 创建(FileInfo WJ)
+        {
+            WJ.Create();
+        }
+
+       [ZCode("创建(FileInfo:WJ)")]
+        public static void 删除(FileInfo WJ)
+        {
+            WJ.Delete();
+            //if (File.Exists(文件名称))
+            //    File.Delete(文件名称);
+        }
+    }
+}

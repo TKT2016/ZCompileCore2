@@ -1,0 +1,236 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using ZLangRT.Attributes;
+using ZLangRT.Utils;
+using Z语言系统;
+
+namespace ZCompileDesc.Descriptions
+{
+    public static class ZTypeManager
+    {
+        static Dictionary<Type, IZDescType> sharpCache = new Dictionary<Type, IZDescType>();
+        static Dictionary<Type, IZDescType> ztypeCache = new Dictionary<Type, IZDescType>();
+
+        public static ZClassType ZVOID { get; private set; }
+        public static ZClassType ZOBJECT { get; private set; }
+        public static ZClassType ZINT { get; private set; }
+        public static ZClassType ZFLOAT { get; private set; }
+        public static ZClassType ZLIST { get; private set; }
+        public static ZClassType ZBOOL { get; private set; }
+        public static ZClassType ZSTRING { get; private set; }
+
+        static ZTypeManager()
+        {
+            ZOBJECT = CreateZDescType(typeof(事物)) as ZClassType;
+            ztypeCache.Add(typeof(事物), ZOBJECT);
+            sharpCache.Add(ZOBJECT.SharpType, ZOBJECT);
+
+           ZVOID = CreateZDescType(typeof(VOID)) as ZClassType;
+           ztypeCache.Add(typeof(VOID), ZVOID);
+           sharpCache.Add(ZVOID.SharpType, ZVOID);
+
+            ZBOOL = CreateZDescType(typeof(判断符)) as ZClassType;
+            ztypeCache.Add(typeof(判断符), ZOBJECT);
+            sharpCache.Add(ZOBJECT.SharpType, ZOBJECT);
+
+            ZINT = CreateZDescType(typeof(整数)) as ZClassType;
+            ztypeCache.Add(typeof(整数), ZINT);
+            sharpCache.Add(ZINT.SharpType, ZINT);
+
+            ZFLOAT = CreateZDescType(typeof(浮点数)) as ZClassType;
+            ztypeCache.Add(typeof(浮点数), ZFLOAT);
+            sharpCache.Add(ZFLOAT.SharpType, ZFLOAT);
+            
+            ZSTRING = CreateZDescType(typeof(文本)) as ZClassType;
+            ztypeCache.Add(typeof(文本), ZSTRING);
+            sharpCache.Add(ZSTRING.SharpType, ZSTRING);
+
+            ZLIST = CreateZDescType(typeof(列表<>)) as ZClassType;
+            ztypeCache.Add(typeof(列表<>), ZLIST);
+            sharpCache.Add(ZLIST.SharpType, ZLIST);
+        }
+
+        private static void AddCache( IZDescType descType)
+        {
+
+        }
+      
+        public static ZType RegNewGenericType(Type newType)
+        {
+            ZType ztype = CreateZDescType(newType) as ZType;
+            return ztype;
+        }
+
+        public static ZType[] GetBySharpName(string sharpName)
+        {
+            if (sharpName == "void") return new ZType[]{ ZVOID};
+            else if (sharpName == "object") return new ZType[] { ZOBJECT };
+            else if (sharpName == "int") return new ZType[] { ZINT };
+            else if (sharpName == "float") return new ZType[] { ZFLOAT };
+            else if (sharpName == "bool") return new ZType[] { ZBOOL };
+            else if (sharpName == "string") return new ZType[] { ZSTRING };
+
+            List<ZType> list = new List<ZType>();
+            foreach (var item in sharpCache.Values)
+            {
+                if (item.SharpType.Name == sharpName)
+                {
+                    list.Add(item as ZType);
+                }
+            }
+            return list.ToArray();
+        }
+
+        public static ZType[] GetByZName(string zname)
+        {
+            if (zname == "VOID") return new ZType[] { ZVOID };
+            else if (zname == "事物") return new ZType[] { ZOBJECT };
+            else if (zname == "整数") return new ZType[] { ZINT };
+            else if (zname == "浮点数") return new ZType[] { ZFLOAT };
+            else if (zname == "判断符") return new ZType[] { ZBOOL };
+            else if (zname == "文本") return new ZType[] { ZSTRING };
+
+            List<ZType> list = new List<ZType>();
+            foreach(var item in sharpCache.Values)
+            {
+                if(item.ZName==zname)
+                {
+                    list.Add(item as ZType);
+                }
+            }
+            return list.ToArray();
+        }
+        
+        public static ZClassType GetBySharpType(Type type)
+        {
+            if (type == null) return null;
+            if (sharpCache.ContainsKey(type))
+            {
+                return sharpCache[type] as ZClassType;
+            }
+            else
+            {
+                return null;
+            }
+        }
+
+        public static ZType GetByZType(Type type)
+        {
+            var zdesctype =  CreateZDescType(type);
+            if (zdesctype == null) return null;
+            return zdesctype as ZType;
+        }
+
+        public static IZDescType CreateZDescType(Type type)
+        {
+            if (ztypeCache.ContainsKey(type))
+            {
+                return ztypeCache[type];
+            }
+            else
+            {
+                IZDescType ztype = CreateZTypeImp(type);
+                if (ztype != null)
+                {
+                    if (!sharpCache.ContainsKey(ztype.SharpType))
+                        sharpCache.Add(ztype.SharpType, ztype);
+                    if (!ztypeCache.ContainsKey(type))
+                        ztypeCache.Add(type, ztype);
+                }
+                return ztype;
+            }
+        }
+
+        private static IZDescType CreateZTypeImp(Type type)
+        {
+            if(AttributeUtil.HasAttribute<ZDimAttribute>(type))
+            {
+                ZDimType zdim = new ZDimType(type);
+                return zdim;
+            }
+            else if (AttributeUtil.HasAttribute<ZEnumAttribute>(type))
+            {
+                ZEnumType zenum = new ZEnumType(type);
+                return zenum;
+            }
+            else if (AttributeUtil.HasAttribute<ZStaticAttribute>(type))
+            {
+                ZStaticAttribute zAttr = AttributeUtil.GetAttribute<ZStaticAttribute>(type);
+                Type sharpType = (zAttr.SharpType == null ? type : zAttr.SharpType);
+                ZClassType zclass = new ZClassType(type, sharpType, true);
+                return zclass;
+            }
+            else if (AttributeUtil.HasAttribute<ZInstanceAttribute>(type))
+            {
+                ZInstanceAttribute zAttr = AttributeUtil.GetAttribute<ZInstanceAttribute>(type);
+                Type sharpType = (zAttr.SharpType == null ? type : zAttr.SharpType);
+                ZClassType zclass = new ZClassType(type, sharpType, false);
+                return zclass;
+            }
+            return null;
+            //ZDimAttribute zdimAttr = AttributeUtil.GetAttribute<ZDimAttribute>(type);
+            //if (zdimAttr!=null)
+            //{
+            //    ZDimType zdim = new ZDimType(type);
+            //    return zdim;
+            //}
+            /*
+            ZClassAttribute zAttr = AttributeUtil.GetAttribute<ZClassAttribute>(type);
+            if (zAttr != null)
+            {
+                if (type.IsEnum)
+                {
+                    if (zAttr.SharpType == null)
+                    {
+                        ZEnumGenType zenumg = new ZEnumGenType(type);
+                        return zenumg;
+                    }
+                    else
+                    {
+                        ZEnumMappingType zenumm = new ZEnumMappingType(type, zAttr.SharpType);
+                        return zenumm;
+                    }
+                }
+                else
+                {
+                    if(zAttr.IsStaticClass)
+                    {
+                        if (zAttr.SharpType == null)
+                        {
+                            ZStaticGenType zg = new ZStaticGenType(type);
+                            return zg;
+                        }
+                        else
+                        {
+                            ZStaticMappingType zm = new ZStaticMappingType(type, zAttr.SharpType);
+                            return zm;
+                        }
+                    }
+                    else
+                    {
+                        if (zAttr.SharpType == null)
+                        {
+                            ZInstanceGenType zg = new ZInstanceGenType(type);
+                            return zg;
+                        }
+                        else
+                        {
+                            ZInstanceMappingType zm = new ZInstanceMappingType(type, zAttr.SharpType);
+                            return zm;
+                        }
+                    }
+                    
+                }
+            }
+            return null;*/
+        }
+
+        public static void Clear()
+        {
+            sharpCache.Clear();
+            ztypeCache.Clear();
+        }
+    }
+}

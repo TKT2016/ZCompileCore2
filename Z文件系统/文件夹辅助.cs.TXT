@@ -1,0 +1,36 @@
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using ZLangRT.Attributes;
+
+namespace Z文件系统
+{
+    [ZStatic]
+    public class 文件夹辅助
+    {
+        //[ZCode("存在(文件夹:WJJ)")]
+        //public static bool 存在文件夹(DirectoryInfo WJJ)
+        //{
+        //    return Directory.Exists(WJJ);
+        //}
+
+        [ZCode("创建(DirectoryInfo:WJJ)")]
+        public static void 创建(DirectoryInfo WJJ)
+        {
+            //Directory.CreateDirectory(文件夹名称);
+            WJJ.Create();
+        }
+
+        [ZCode("删除(DirectoryInfo:WJJ)")]
+        public static void 删除(DirectoryInfo WJJ)
+        {
+            WJJ.Delete();
+            //if (Directory.Exists(文件夹名称))
+            //    Directory.Delete(文件夹名称);
+        }
+
+    }
+}
